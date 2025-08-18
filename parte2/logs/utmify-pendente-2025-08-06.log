@@ -1,0 +1,271 @@
+[2025-08-06 17:00:22] 📥 Dados recebidos para pagamento pendente
+Dados: {
+    "raw": "{\"external_id\":\"pedido-68938a243b1f4-1754499620\",\"amount\":1990,\"buyer\":{\"name\":\"Cliente Recarga\",\"email\":\"admin@bonni.com\",\"document\":\"52849382086\",\"phone\":\"5511918232737\"},\"product\":{\"id\":\"recarga-freefire\",\"name\":\"Recarga Free Fire\"},\"offer\":{\"id\":\"oferta-recarga\",\"name\":\"Recarga Jogo\",\"quantity\":1},\"trackingParameters\":{\"src\":null,\"sck\":\"\",\"utm_source\":\"FB\",\"utm_campaign\":\"TESTE_SISTEMA\",\"utm_medium\":\"SOCIAL\",\"utm_content\":\"TESTE_CONTEUDO\",\"utm_term\":\"TESTE_TERMO\",\"xcod\":\"\",\"fbclid\":null,\"gclid\":null,\"ttclid\":null}}"
+}
+----------------------------------------
+[2025-08-06 17:00:22] 🔄 Processando dados recebidos
+Dados: {
+    "external_id": "pedido-68938a243b1f4-1754499620",
+    "amount": 1990,
+    "buyer": {
+        "name": "Cliente Recarga",
+        "email": "admin@bonni.com",
+        "document": "52849382086",
+        "phone": "5511918232737"
+    },
+    "product": {
+        "id": "recarga-freefire",
+        "name": "Recarga Free Fire"
+    },
+    "offer": {
+        "id": "oferta-recarga",
+        "name": "Recarga Jogo",
+        "quantity": 1
+    },
+    "trackingParameters": {
+        "src": null,
+        "sck": "",
+        "utm_source": "FB",
+        "utm_campaign": "TESTE_SISTEMA",
+        "utm_medium": "SOCIAL",
+        "utm_content": "TESTE_CONTEUDO",
+        "utm_term": "TESTE_TERMO",
+        "xcod": "",
+        "fbclid": null,
+        "gclid": null,
+        "ttclid": null
+    }
+}
+----------------------------------------
+[2025-08-06 17:00:22] 📤 Dados formatados para Utmify
+Dados: {
+    "orderId": "pedido-68938a243b1f4-1754499620",
+    "platform": "BuckPay",
+    "paymentMethod": "pix",
+    "status": "waiting_payment",
+    "createdAt": "2025-08-06 17:00:22",
+    "approvedDate": null,
+    "refundedAt": null,
+    "customer": {
+        "name": "Cliente Recarga",
+        "email": "admin@bonni.com",
+        "phone": "5511918232737",
+        "document": "52849382086",
+        "country": "BR",
+        "ip": "::1"
+    },
+    "products": [
+        {
+            "id": "recarga-freefire",
+            "name": "Recarga Free Fire",
+            "planId": null,
+            "planName": null,
+            "quantity": 1,
+            "priceInCents": 1990
+        }
+    ],
+    "trackingParameters": {
+        "src": null,
+        "sck": "",
+        "utm_source": "FB",
+        "utm_campaign": "TESTE_SISTEMA",
+        "utm_medium": "SOCIAL",
+        "utm_content": "TESTE_CONTEUDO",
+        "utm_term": "TESTE_TERMO",
+        "xcod": "",
+        "fbclid": null,
+        "gclid": null,
+        "ttclid": null
+    },
+    "commission": {
+        "totalPriceInCents": 1990,
+        "gatewayFeeInCents": 0,
+        "userCommissionInCents": 1990
+    },
+    "isTest": false
+}
+----------------------------------------
+[2025-08-06 17:00:22] 📡 Enviando requisição para Utmify
+Dados: {
+    "url": "https:\/\/api.utmify.com.br\/api-credentials\/orders",
+    "headers": [
+        "Content-Type: application\/json",
+        "x-api-token: [REDACTED]"
+    ]
+}
+----------------------------------------
+[2025-08-06 17:00:23] ✅ Resposta da API Utmify
+Dados: {
+    "http_code": 404,
+    "response": {
+        "OK": false,
+        "data": {
+            "type": "API_CREDENTIAL"
+        },
+        "result": "ERROR",
+        "statusCode": 404,
+        "message": "API_CREDENTIAL_NOT_FOUND"
+    }
+}
+----------------------------------------
+[2025-08-06 17:00:23] ❌ Erro
+Dados: {
+    "message": "Erro na API Utmify. HTTP Code: 404"
+}
+----------------------------------------
+[2025-08-06 19:57:47] 📥 PAYLOAD RAW RECEBIDO
+Dados: {
+    "raw_data": "{\"external_id\":\"pedido-6893b3b7cb26e-1754510263\",\"amount\":1990,\"buyer\":{\"name\":\"Cliente Recarga\",\"email\":\"admin@bonni.com\",\"document\":\"52849382086\",\"phone\":\"5511918232737\"},\"product\":{\"id\":\"recarga-freefire\",\"name\":\"Recarga Free Fire\"},\"offer\":{\"id\":\"oferta-recarga\",\"name\":\"Recarga Jogo\",\"quantity\":1},\"trackingParameters\":{\"src\":null,\"sck\":\"\",\"utm_source\":\"FB\",\"utm_campaign\":\"TESTE_SISTEMA\",\"utm_medium\":\"SOCIAL\",\"utm_content\":\"TESTE_CONTEUDO\",\"utm_term\":\"TESTE_TERMO\",\"xcod\":\"FBhQwK21wXxRCampanhaTeste|00000000000000001hQwK21wXxRadsetTeste|00000000000000002hQwK21wXxRContentTeste|00000000000000003hQwK21wXxRPlacement\",\"fbclid\":null,\"gclid\":null,\"ttclid\":null}}"
+}
+----------------------------------------
+[2025-08-06 19:57:47] 🔄 PAYLOAD DECODIFICADO
+Dados: {
+    "external_id": "pedido-6893b3b7cb26e-1754510263",
+    "amount": 1990,
+    "buyer": {
+        "name": "Cliente Recarga",
+        "email": "admin@bonni.com",
+        "document": "52849382086",
+        "phone": "5511918232737"
+    },
+    "product": {
+        "id": "recarga-freefire",
+        "name": "Recarga Free Fire"
+    },
+    "offer": {
+        "id": "oferta-recarga",
+        "name": "Recarga Jogo",
+        "quantity": 1
+    },
+    "trackingParameters": {
+        "src": null,
+        "sck": "",
+        "utm_source": "FB",
+        "utm_campaign": "TESTE_SISTEMA",
+        "utm_medium": "SOCIAL",
+        "utm_content": "TESTE_CONTEUDO",
+        "utm_term": "TESTE_TERMO",
+        "xcod": "FBhQwK21wXxRCampanhaTeste|00000000000000001hQwK21wXxRadsetTeste|00000000000000002hQwK21wXxRContentTeste|00000000000000003hQwK21wXxRPlacement",
+        "fbclid": null,
+        "gclid": null,
+        "ttclid": null
+    }
+}
+----------------------------------------
+[2025-08-06 19:57:47] 🎯 TRACKING PARAMETERS RECEBIDOS
+Dados: {
+    "src": null,
+    "sck": "",
+    "utm_source": "FB",
+    "utm_campaign": "TESTE_SISTEMA",
+    "utm_medium": "SOCIAL",
+    "utm_content": "TESTE_CONTEUDO",
+    "utm_term": "TESTE_TERMO",
+    "xcod": "FBhQwK21wXxRCampanhaTeste|00000000000000001hQwK21wXxRadsetTeste|00000000000000002hQwK21wXxRContentTeste|00000000000000003hQwK21wXxRPlacement",
+    "fbclid": null,
+    "gclid": null,
+    "ttclid": null
+}
+----------------------------------------
+[2025-08-06 19:57:47] 🔍 ANÁLISE INDIVIDUAL DOS CAMPOS UTM
+Dados: {
+    "utm_source": "FB",
+    "utm_campaign": "TESTE_SISTEMA",
+    "utm_medium": "SOCIAL",
+    "utm_content": "TESTE_CONTEUDO",
+    "utm_term": "TESTE_TERMO",
+    "src": "N\u00c3O ENCONTRADO",
+    "sck": "",
+    "xcod": "FBhQwK21wXxRCampanhaTeste|00000000000000001hQwK21wXxRadsetTeste|00000000000000002hQwK21wXxRContentTeste|00000000000000003hQwK21wXxRPlacement",
+    "fbclid": "N\u00c3O ENCONTRADO",
+    "gclid": "N\u00c3O ENCONTRADO",
+    "ttclid": "N\u00c3O ENCONTRADO"
+}
+----------------------------------------
+[2025-08-06 19:57:47] 📤 PAYLOAD FINAL PARA UTMIFY
+Dados: {
+    "orderId": "pedido-6893b3b7cb26e-1754510263",
+    "platform": "BuckPay",
+    "paymentMethod": "pix",
+    "status": "waiting_payment",
+    "createdAt": "2025-08-06 19:57:47",
+    "approvedDate": null,
+    "refundedAt": null,
+    "customer": {
+        "name": "Cliente Recarga",
+        "email": "admin@bonni.com",
+        "phone": "5511918232737",
+        "document": "52849382086",
+        "country": "BR",
+        "ip": "::1"
+    },
+    "products": [
+        {
+            "id": "recarga-freefire",
+            "name": "Recarga Free Fire",
+            "planId": null,
+            "planName": null,
+            "quantity": 1,
+            "priceInCents": 1990
+        }
+    ],
+    "trackingParameters": {
+        "src": null,
+        "sck": "",
+        "utm_source": "FB",
+        "utm_campaign": "TESTE_SISTEMA",
+        "utm_medium": "SOCIAL",
+        "utm_content": "TESTE_CONTEUDO",
+        "utm_term": "TESTE_TERMO",
+        "xcod": "FBhQwK21wXxRCampanhaTeste|00000000000000001hQwK21wXxRadsetTeste|00000000000000002hQwK21wXxRContentTeste|00000000000000003hQwK21wXxRPlacement",
+        "fbclid": null,
+        "gclid": null,
+        "ttclid": null
+    },
+    "commission": {
+        "totalPriceInCents": 1990,
+        "gatewayFeeInCents": 0,
+        "userCommissionInCents": 1990
+    },
+    "isTest": false
+}
+----------------------------------------
+[2025-08-06 19:57:47] 🎯 TRACKING PARAMETERS QUE SERÃO ENVIADOS
+Dados: {
+    "src": null,
+    "sck": "",
+    "utm_source": "FB",
+    "utm_campaign": "TESTE_SISTEMA",
+    "utm_medium": "SOCIAL",
+    "utm_content": "TESTE_CONTEUDO",
+    "utm_term": "TESTE_TERMO",
+    "xcod": "FBhQwK21wXxRCampanhaTeste|00000000000000001hQwK21wXxRadsetTeste|00000000000000002hQwK21wXxRContentTeste|00000000000000003hQwK21wXxRPlacement",
+    "fbclid": null,
+    "gclid": null,
+    "ttclid": null
+}
+----------------------------------------
+[2025-08-06 19:57:47] 📦 JSON FINAL PARA ENVIO
+Dados: {
+    "json_payload": "{\"orderId\":\"pedido-6893b3b7cb26e-1754510263\",\"platform\":\"BuckPay\",\"paymentMethod\":\"pix\",\"status\":\"waiting_payment\",\"createdAt\":\"2025-08-06 19:57:47\",\"approvedDate\":null,\"refundedAt\":null,\"customer\":{\"name\":\"Cliente Recarga\",\"email\":\"admin@bonni.com\",\"phone\":\"5511918232737\",\"document\":\"52849382086\",\"country\":\"BR\",\"ip\":\"::1\"},\"products\":[{\"id\":\"recarga-freefire\",\"name\":\"Recarga Free Fire\",\"planId\":null,\"planName\":null,\"quantity\":1,\"priceInCents\":1990}],\"trackingParameters\":{\"src\":null,\"sck\":\"\",\"utm_source\":\"FB\",\"utm_campaign\":\"TESTE_SISTEMA\",\"utm_medium\":\"SOCIAL\",\"utm_content\":\"TESTE_CONTEUDO\",\"utm_term\":\"TESTE_TERMO\",\"xcod\":\"FBhQwK21wXxRCampanhaTeste|00000000000000001hQwK21wXxRadsetTeste|00000000000000002hQwK21wXxRContentTeste|00000000000000003hQwK21wXxRPlacement\",\"fbclid\":null,\"gclid\":null,\"ttclid\":null},\"commission\":{\"totalPriceInCents\":1990,\"gatewayFeeInCents\":0,\"userCommissionInCents\":1990},\"isTest\":false}"
+}
+----------------------------------------
+[2025-08-06 19:57:47] 📡 Enviando requisição para Utmify
+Dados: {
+    "url": "https:\/\/api.utmify.com.br\/api-credentials\/orders",
+    "headers": [
+        "Content-Type: application\/json",
+        "x-api-token: [REDACTED]"
+    ]
+}
+----------------------------------------
+[2025-08-06 19:57:47] ✅ Resposta da API Utmify
+Dados: {
+    "http_code": 200,
+    "response": {
+        "OK": true,
+        "data": [],
+        "result": "SUCCESS"
+    }
+}
+----------------------------------------

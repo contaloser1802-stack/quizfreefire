@@ -1,0 +1,157 @@
+[2025-08-10 05:03:32] 📥 PAYLOAD RAW RECEBIDO (PAGO)
+Dados: {
+    "raw_data": "{\"external_id\":\"5905cb19-e143-4f6c-82d2-9312095bcafa\",\"amount\":1997,\"createdAt\":\"2025-08-10T05:00:28.141+00:00\",\"buyer\":{\"name\":\"Cliente Recarga\",\"email\":\"comprador@frifas.com\",\"document\":\"52849382086\",\"phone\":\"5594984084284\"},\"product\":{\"id\":\"recarga-freefire\",\"name\":\"Recarga Free Fire\"},\"offer\":{\"id\":\"oferta-recarga\",\"name\":\"Recarga Jogo\",\"quantity\":1},\"trackingParameters\":{\"src\":null,\"sck\":\"\",\"utm_source\":\"FBjLj68981ec65c721c8b3b499fb6\",\"utm_campaign\":\"{{campaign.name}}|{{campaign.id}}\",\"utm_medium\":\"{{adset.name}}|{{adset.id}}\",\"utm_content\":\"{{ad.name}}|{{ad.id}}\",\"utm_term\":\"{{placement}}\",\"xcod\":\"\",\"fbclid\":null,\"gclid\":null,\"ttclid\":null}}"
+}
+----------------------------------------
+[2025-08-10 05:03:32] 🔄 PAYLOAD DECODIFICADO (PAGO)
+Dados: {
+    "external_id": "5905cb19-e143-4f6c-82d2-9312095bcafa",
+    "amount": 1997,
+    "createdAt": "2025-08-10T05:00:28.141+00:00",
+    "buyer": {
+        "name": "Cliente Recarga",
+        "email": "comprador@frifas.com",
+        "document": "52849382086",
+        "phone": "5594984084284"
+    },
+    "product": {
+        "id": "recarga-freefire",
+        "name": "Recarga Free Fire"
+    },
+    "offer": {
+        "id": "oferta-recarga",
+        "name": "Recarga Jogo",
+        "quantity": 1
+    },
+    "trackingParameters": {
+        "src": null,
+        "sck": "",
+        "utm_source": "FBjLj68981ec65c721c8b3b499fb6",
+        "utm_campaign": "{{campaign.name}}|{{campaign.id}}",
+        "utm_medium": "{{adset.name}}|{{adset.id}}",
+        "utm_content": "{{ad.name}}|{{ad.id}}",
+        "utm_term": "{{placement}}",
+        "xcod": "",
+        "fbclid": null,
+        "gclid": null,
+        "ttclid": null
+    }
+}
+----------------------------------------
+[2025-08-10 05:03:32] 🎯 TRACKING PARAMETERS RECEBIDOS (PAGO)
+Dados: {
+    "src": null,
+    "sck": "",
+    "utm_source": "FBjLj68981ec65c721c8b3b499fb6",
+    "utm_campaign": "{{campaign.name}}|{{campaign.id}}",
+    "utm_medium": "{{adset.name}}|{{adset.id}}",
+    "utm_content": "{{ad.name}}|{{ad.id}}",
+    "utm_term": "{{placement}}",
+    "xcod": "",
+    "fbclid": null,
+    "gclid": null,
+    "ttclid": null
+}
+----------------------------------------
+[2025-08-10 05:03:32] 🔍 ANÁLISE INDIVIDUAL DOS CAMPOS UTM (PAGO)
+Dados: {
+    "utm_source": "FBjLj68981ec65c721c8b3b499fb6",
+    "utm_campaign": "{{campaign.name}}|{{campaign.id}}",
+    "utm_medium": "{{adset.name}}|{{adset.id}}",
+    "utm_content": "{{ad.name}}|{{ad.id}}",
+    "utm_term": "{{placement}}",
+    "src": "N\u00c3O ENCONTRADO",
+    "sck": "",
+    "xcod": "",
+    "fbclid": "N\u00c3O ENCONTRADO",
+    "gclid": "N\u00c3O ENCONTRADO",
+    "ttclid": "N\u00c3O ENCONTRADO"
+}
+----------------------------------------
+[2025-08-10 05:03:32] 📤 PAYLOAD FINAL PARA UTMIFY (PAGO)
+Dados: {
+    "orderId": "5905cb19-e143-4f6c-82d2-9312095bcafa",
+    "platform": "BuckPay",
+    "paymentMethod": "pix",
+    "status": "paid",
+    "createdAt": "2025-08-10T05:00:28.141+00:00",
+    "approvedDate": "2025-08-10 05:03:32",
+    "refundedAt": null,
+    "customer": {
+        "name": "Cliente Recarga",
+        "email": "comprador@frifas.com",
+        "phone": "5594984084284",
+        "document": "52849382086",
+        "country": "BR",
+        "ip": "2a02:4780:13::f"
+    },
+    "products": [
+        {
+            "id": "recarga-freefire",
+            "name": "Recarga Free Fire",
+            "planId": null,
+            "planName": null,
+            "quantity": 1,
+            "priceInCents": 1997
+        }
+    ],
+    "trackingParameters": {
+        "src": null,
+        "sck": "",
+        "utm_source": "FBjLj68981ec65c721c8b3b499fb6",
+        "utm_campaign": "{{campaign.name}}|{{campaign.id}}",
+        "utm_medium": "{{adset.name}}|{{adset.id}}",
+        "utm_content": "{{ad.name}}|{{ad.id}}",
+        "utm_term": "{{placement}}",
+        "xcod": "",
+        "fbclid": null,
+        "gclid": null,
+        "ttclid": null
+    },
+    "commission": {
+        "totalPriceInCents": 1997,
+        "gatewayFeeInCents": 0,
+        "userCommissionInCents": 1997
+    },
+    "isTest": false
+}
+----------------------------------------
+[2025-08-10 05:03:32] 🎯 TRACKING PARAMETERS QUE SERÃO ENVIADOS (PAGO)
+Dados: {
+    "src": null,
+    "sck": "",
+    "utm_source": "FBjLj68981ec65c721c8b3b499fb6",
+    "utm_campaign": "{{campaign.name}}|{{campaign.id}}",
+    "utm_medium": "{{adset.name}}|{{adset.id}}",
+    "utm_content": "{{ad.name}}|{{ad.id}}",
+    "utm_term": "{{placement}}",
+    "xcod": "",
+    "fbclid": null,
+    "gclid": null,
+    "ttclid": null
+}
+----------------------------------------
+[2025-08-10 05:03:32] 📦 JSON FINAL PARA ENVIO (PAGO)
+Dados: {
+    "json_payload": "{\"orderId\":\"5905cb19-e143-4f6c-82d2-9312095bcafa\",\"platform\":\"BuckPay\",\"paymentMethod\":\"pix\",\"status\":\"paid\",\"createdAt\":\"2025-08-10T05:00:28.141+00:00\",\"approvedDate\":\"2025-08-10 05:03:32\",\"refundedAt\":null,\"customer\":{\"name\":\"Cliente Recarga\",\"email\":\"comprador@frifas.com\",\"phone\":\"5594984084284\",\"document\":\"52849382086\",\"country\":\"BR\",\"ip\":\"2a02:4780:13::f\"},\"products\":[{\"id\":\"recarga-freefire\",\"name\":\"Recarga Free Fire\",\"planId\":null,\"planName\":null,\"quantity\":1,\"priceInCents\":1997}],\"trackingParameters\":{\"src\":null,\"sck\":\"\",\"utm_source\":\"FBjLj68981ec65c721c8b3b499fb6\",\"utm_campaign\":\"{{campaign.name}}|{{campaign.id}}\",\"utm_medium\":\"{{adset.name}}|{{adset.id}}\",\"utm_content\":\"{{ad.name}}|{{ad.id}}\",\"utm_term\":\"{{placement}}\",\"xcod\":\"\",\"fbclid\":null,\"gclid\":null,\"ttclid\":null},\"commission\":{\"totalPriceInCents\":1997,\"gatewayFeeInCents\":0,\"userCommissionInCents\":1997},\"isTest\":false}"
+}
+----------------------------------------
+[2025-08-10 05:03:32] 📡 Enviando requisição para Utmify
+Dados: {
+    "url": "https:\/\/api.utmify.com.br\/api-credentials\/orders",
+    "headers": [
+        "Content-Type: application\/json",
+        "x-api-token: [REDACTED]"
+    ]
+}
+----------------------------------------
+[2025-08-10 05:03:32] ✅ Resposta da API Utmify
+Dados: {
+    "http_code": 200,
+    "response": {
+        "OK": true,
+        "data": [],
+        "result": "SUCCESS"
+    }
+}
+----------------------------------------

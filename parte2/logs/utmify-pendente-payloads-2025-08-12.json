@@ -1,0 +1,328 @@
+[
+    {
+        "timestamp": "2025-08-12 09:09:41",
+        "type": "payload_raw_recebido",
+        "data": {
+            "raw_data": "{\"external_id\":\"pedido-689b04d148d21-1754989777\",\"amount\":1990,\"buyer\":{\"name\":\"Cliente Recarga\",\"email\":\"comprador@frifas.com\",\"document\":\"52849382086\",\"phone\":\"556137449965\"},\"product\":{\"id\":\"recarga-freefire\",\"name\":\"Recarga Free Fire\"},\"offer\":{\"id\":\"oferta-recarga\",\"name\":\"Recarga Jogo\",\"quantity\":1},\"trackingParameters\":{\"src\":null,\"sck\":\"\",\"utm_source\":\"\",\"utm_campaign\":\"\",\"utm_medium\":\"\",\"utm_content\":\"\",\"utm_term\":\"\",\"xcod\":\"organichQwK21wXxRhQwK21wXxRhQwK21wXxRhQwK21wXxR\",\"fbclid\":null,\"gclid\":null,\"ttclid\":null}}"
+        }
+    },
+    {
+        "timestamp": "2025-08-12 09:09:41",
+        "type": "payload_decodificado",
+        "data": {
+            "external_id": "pedido-689b04d148d21-1754989777",
+            "amount": 1990,
+            "buyer": {
+                "name": "Cliente Recarga",
+                "email": "comprador@frifas.com",
+                "document": "52849382086",
+                "phone": "556137449965"
+            },
+            "product": {
+                "id": "recarga-freefire",
+                "name": "Recarga Free Fire"
+            },
+            "offer": {
+                "id": "oferta-recarga",
+                "name": "Recarga Jogo",
+                "quantity": 1
+            },
+            "trackingParameters": {
+                "src": null,
+                "sck": "",
+                "utm_source": "",
+                "utm_campaign": "",
+                "utm_medium": "",
+                "utm_content": "",
+                "utm_term": "",
+                "xcod": "organichQwK21wXxRhQwK21wXxRhQwK21wXxRhQwK21wXxR",
+                "fbclid": null,
+                "gclid": null,
+                "ttclid": null
+            }
+        }
+    },
+    {
+        "timestamp": "2025-08-12 09:09:41",
+        "type": "tracking_parameters_recebidos",
+        "data": {
+            "src": null,
+            "sck": "",
+            "utm_source": "",
+            "utm_campaign": "",
+            "utm_medium": "",
+            "utm_content": "",
+            "utm_term": "",
+            "xcod": "organichQwK21wXxRhQwK21wXxRhQwK21wXxRhQwK21wXxR",
+            "fbclid": null,
+            "gclid": null,
+            "ttclid": null
+        }
+    },
+    {
+        "timestamp": "2025-08-12 09:09:41",
+        "type": "analise_campos_utm",
+        "data": {
+            "utm_source": "",
+            "utm_campaign": "",
+            "utm_medium": "",
+            "utm_content": "",
+            "utm_term": "",
+            "src": "N\u00c3O ENCONTRADO",
+            "sck": "",
+            "xcod": "organichQwK21wXxRhQwK21wXxRhQwK21wXxRhQwK21wXxR",
+            "fbclid": "N\u00c3O ENCONTRADO",
+            "gclid": "N\u00c3O ENCONTRADO",
+            "ttclid": "N\u00c3O ENCONTRADO"
+        }
+    },
+    {
+        "timestamp": "2025-08-12 09:09:41",
+        "type": "payload_final_utmify",
+        "data": {
+            "orderId": "pedido-689b04d148d21-1754989777",
+            "platform": "BuckPay",
+            "paymentMethod": "pix",
+            "status": "waiting_payment",
+            "createdAt": "2025-08-12 09:09:41",
+            "approvedDate": null,
+            "refundedAt": null,
+            "customer": {
+                "name": "Cliente Recarga",
+                "email": "comprador@frifas.com",
+                "phone": "556137449965",
+                "document": "52849382086",
+                "country": "BR",
+                "ip": "2a02:4780:13::f"
+            },
+            "products": [
+                {
+                    "id": "recarga-freefire",
+                    "name": "Recarga Free Fire",
+                    "planId": null,
+                    "planName": null,
+                    "quantity": 1,
+                    "priceInCents": 1990
+                }
+            ],
+            "trackingParameters": {
+                "src": null,
+                "sck": "",
+                "utm_source": "",
+                "utm_campaign": "",
+                "utm_medium": "",
+                "utm_content": "",
+                "utm_term": "",
+                "xcod": "organichQwK21wXxRhQwK21wXxRhQwK21wXxRhQwK21wXxR",
+                "fbclid": null,
+                "gclid": null,
+                "ttclid": null
+            },
+            "commission": {
+                "totalPriceInCents": 1990,
+                "gatewayFeeInCents": 0,
+                "userCommissionInCents": 1990
+            },
+            "isTest": false
+        }
+    },
+    {
+        "timestamp": "2025-08-12 09:09:41",
+        "type": "tracking_parameters_enviados",
+        "data": {
+            "src": null,
+            "sck": "",
+            "utm_source": "",
+            "utm_campaign": "",
+            "utm_medium": "",
+            "utm_content": "",
+            "utm_term": "",
+            "xcod": "organichQwK21wXxRhQwK21wXxRhQwK21wXxRhQwK21wXxR",
+            "fbclid": null,
+            "gclid": null,
+            "ttclid": null
+        }
+    },
+    {
+        "timestamp": "2025-08-12 09:09:41",
+        "type": "json_final_envio",
+        "data": {
+            "json_payload": "{\"orderId\":\"pedido-689b04d148d21-1754989777\",\"platform\":\"BuckPay\",\"paymentMethod\":\"pix\",\"status\":\"waiting_payment\",\"createdAt\":\"2025-08-12 09:09:41\",\"approvedDate\":null,\"refundedAt\":null,\"customer\":{\"name\":\"Cliente Recarga\",\"email\":\"comprador@frifas.com\",\"phone\":\"556137449965\",\"document\":\"52849382086\",\"country\":\"BR\",\"ip\":\"2a02:4780:13::f\"},\"products\":[{\"id\":\"recarga-freefire\",\"name\":\"Recarga Free Fire\",\"planId\":null,\"planName\":null,\"quantity\":1,\"priceInCents\":1990}],\"trackingParameters\":{\"src\":null,\"sck\":\"\",\"utm_source\":\"\",\"utm_campaign\":\"\",\"utm_medium\":\"\",\"utm_content\":\"\",\"utm_term\":\"\",\"xcod\":\"organichQwK21wXxRhQwK21wXxRhQwK21wXxRhQwK21wXxR\",\"fbclid\":null,\"gclid\":null,\"ttclid\":null},\"commission\":{\"totalPriceInCents\":1990,\"gatewayFeeInCents\":0,\"userCommissionInCents\":1990},\"isTest\":false}"
+        }
+    },
+    {
+        "timestamp": "2025-08-12 09:09:41",
+        "type": "resposta_api_utmify",
+        "data": {
+            "http_code": 200,
+            "response": {
+                "OK": true,
+                "data": [],
+                "result": "SUCCESS"
+            }
+        }
+    },
+    {
+        "timestamp": "2025-08-12 21:54:59",
+        "type": "payload_raw_recebido",
+        "data": {
+            "raw_data": "{\"external_id\":\"pedido-689bb82fa9767-1755035695\",\"amount\":1990,\"buyer\":{\"name\":\"Cliente Recarga\",\"email\":\"comprador@frifas.com\",\"document\":\"52849382086\",\"phone\":\"556137449965\"},\"product\":{\"id\":\"recarga-freefire\",\"name\":\"Recarga Free Fire\"},\"offer\":{\"id\":\"oferta-recarga\",\"name\":\"Recarga Jogo\",\"quantity\":1},\"trackingParameters\":{\"src\":null,\"sck\":\"\",\"utm_source\":\"\",\"utm_campaign\":\"\",\"utm_medium\":\"\",\"utm_content\":\"\",\"utm_term\":\"\",\"xcod\":\"\",\"fbclid\":null,\"gclid\":null,\"ttclid\":null}}"
+        }
+    },
+    {
+        "timestamp": "2025-08-12 21:54:59",
+        "type": "payload_decodificado",
+        "data": {
+            "external_id": "pedido-689bb82fa9767-1755035695",
+            "amount": 1990,
+            "buyer": {
+                "name": "Cliente Recarga",
+                "email": "comprador@frifas.com",
+                "document": "52849382086",
+                "phone": "556137449965"
+            },
+            "product": {
+                "id": "recarga-freefire",
+                "name": "Recarga Free Fire"
+            },
+            "offer": {
+                "id": "oferta-recarga",
+                "name": "Recarga Jogo",
+                "quantity": 1
+            },
+            "trackingParameters": {
+                "src": null,
+                "sck": "",
+                "utm_source": "",
+                "utm_campaign": "",
+                "utm_medium": "",
+                "utm_content": "",
+                "utm_term": "",
+                "xcod": "",
+                "fbclid": null,
+                "gclid": null,
+                "ttclid": null
+            }
+        }
+    },
+    {
+        "timestamp": "2025-08-12 21:54:59",
+        "type": "tracking_parameters_recebidos",
+        "data": {
+            "src": null,
+            "sck": "",
+            "utm_source": "",
+            "utm_campaign": "",
+            "utm_medium": "",
+            "utm_content": "",
+            "utm_term": "",
+            "xcod": "",
+            "fbclid": null,
+            "gclid": null,
+            "ttclid": null
+        }
+    },
+    {
+        "timestamp": "2025-08-12 21:54:59",
+        "type": "analise_campos_utm",
+        "data": {
+            "utm_source": "",
+            "utm_campaign": "",
+            "utm_medium": "",
+            "utm_content": "",
+            "utm_term": "",
+            "src": "N\u00c3O ENCONTRADO",
+            "sck": "",
+            "xcod": "",
+            "fbclid": "N\u00c3O ENCONTRADO",
+            "gclid": "N\u00c3O ENCONTRADO",
+            "ttclid": "N\u00c3O ENCONTRADO"
+        }
+    },
+    {
+        "timestamp": "2025-08-12 21:54:59",
+        "type": "payload_final_utmify",
+        "data": {
+            "orderId": "pedido-689bb82fa9767-1755035695",
+            "platform": "BuckPay",
+            "paymentMethod": "pix",
+            "status": "waiting_payment",
+            "createdAt": "2025-08-12 21:54:59",
+            "approvedDate": null,
+            "refundedAt": null,
+            "customer": {
+                "name": "Cliente Recarga",
+                "email": "comprador@frifas.com",
+                "phone": "556137449965",
+                "document": "52849382086",
+                "country": "BR",
+                "ip": "2a02:4780:13::f"
+            },
+            "products": [
+                {
+                    "id": "recarga-freefire",
+                    "name": "Recarga Free Fire",
+                    "planId": null,
+                    "planName": null,
+                    "quantity": 1,
+                    "priceInCents": 1990
+                }
+            ],
+            "trackingParameters": {
+                "src": null,
+                "sck": "",
+                "utm_source": "",
+                "utm_campaign": "",
+                "utm_medium": "",
+                "utm_content": "",
+                "utm_term": "",
+                "xcod": "",
+                "fbclid": null,
+                "gclid": null,
+                "ttclid": null
+            },
+            "commission": {
+                "totalPriceInCents": 1990,
+                "gatewayFeeInCents": 0,
+                "userCommissionInCents": 1990
+            },
+            "isTest": false
+        }
+    },
+    {
+        "timestamp": "2025-08-12 21:54:59",
+        "type": "tracking_parameters_enviados",
+        "data": {
+            "src": null,
+            "sck": "",
+            "utm_source": "",
+            "utm_campaign": "",
+            "utm_medium": "",
+            "utm_content": "",
+            "utm_term": "",
+            "xcod": "",
+            "fbclid": null,
+            "gclid": null,
+            "ttclid": null
+        }
+    },
+    {
+        "timestamp": "2025-08-12 21:54:59",
+        "type": "json_final_envio",
+        "data": {
+            "json_payload": "{\"orderId\":\"pedido-689bb82fa9767-1755035695\",\"platform\":\"BuckPay\",\"paymentMethod\":\"pix\",\"status\":\"waiting_payment\",\"createdAt\":\"2025-08-12 21:54:59\",\"approvedDate\":null,\"refundedAt\":null,\"customer\":{\"name\":\"Cliente Recarga\",\"email\":\"comprador@frifas.com\",\"phone\":\"556137449965\",\"document\":\"52849382086\",\"country\":\"BR\",\"ip\":\"2a02:4780:13::f\"},\"products\":[{\"id\":\"recarga-freefire\",\"name\":\"Recarga Free Fire\",\"planId\":null,\"planName\":null,\"quantity\":1,\"priceInCents\":1990}],\"trackingParameters\":{\"src\":null,\"sck\":\"\",\"utm_source\":\"\",\"utm_campaign\":\"\",\"utm_medium\":\"\",\"utm_content\":\"\",\"utm_term\":\"\",\"xcod\":\"\",\"fbclid\":null,\"gclid\":null,\"ttclid\":null},\"commission\":{\"totalPriceInCents\":1990,\"gatewayFeeInCents\":0,\"userCommissionInCents\":1990},\"isTest\":false}"
+        }
+    },
+    {
+        "timestamp": "2025-08-12 21:55:00",
+        "type": "resposta_api_utmify",
+        "data": {
+            "http_code": 200,
+            "response": {
+                "OK": true,
+                "data": [],
+                "result": "SUCCESS"
+            }
+        }
+    }
+]

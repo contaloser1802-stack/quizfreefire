@@ -1,0 +1,166 @@
+[
+    {
+        "timestamp": "2025-08-11 04:34:34",
+        "type": "payload_raw_recebido_pago",
+        "data": {
+            "raw_data": "{\"external_id\":\"c77c3ab6-28be-41b1-a12a-7c6c34d0048d\",\"amount\":1997,\"createdAt\":\"2025-08-11T04:33:02.637+00:00\",\"buyer\":{\"name\":\"Cliente Recarga\",\"email\":\"murillorickelme4@gmail.com\",\"document\":\"52849382086\",\"phone\":\"5511951632190\"},\"product\":{\"id\":\"recarga-freefire\",\"name\":\"Recarga Free Fire\"},\"offer\":{\"id\":\"oferta-recarga\",\"name\":\"Recarga Jogo\",\"quantity\":1},\"trackingParameters\":{\"src\":null,\"sck\":\"\",\"utm_source\":\"organicjLj68997130c284b31caa700ffd\",\"utm_campaign\":\"\",\"utm_medium\":\"\",\"utm_content\":\"\",\"utm_term\":\"\",\"xcod\":\"\",\"fbclid\":null,\"gclid\":null,\"ttclid\":null}}"
+        }
+    },
+    {
+        "timestamp": "2025-08-11 04:34:34",
+        "type": "payload_decodificado_pago",
+        "data": {
+            "external_id": "c77c3ab6-28be-41b1-a12a-7c6c34d0048d",
+            "amount": 1997,
+            "createdAt": "2025-08-11T04:33:02.637+00:00",
+            "buyer": {
+                "name": "Cliente Recarga",
+                "email": "murillorickelme4@gmail.com",
+                "document": "52849382086",
+                "phone": "5511951632190"
+            },
+            "product": {
+                "id": "recarga-freefire",
+                "name": "Recarga Free Fire"
+            },
+            "offer": {
+                "id": "oferta-recarga",
+                "name": "Recarga Jogo",
+                "quantity": 1
+            },
+            "trackingParameters": {
+                "src": null,
+                "sck": "",
+                "utm_source": "organicjLj68997130c284b31caa700ffd",
+                "utm_campaign": "",
+                "utm_medium": "",
+                "utm_content": "",
+                "utm_term": "",
+                "xcod": "",
+                "fbclid": null,
+                "gclid": null,
+                "ttclid": null
+            }
+        }
+    },
+    {
+        "timestamp": "2025-08-11 04:34:34",
+        "type": "tracking_parameters_recebidos_pago",
+        "data": {
+            "src": null,
+            "sck": "",
+            "utm_source": "organicjLj68997130c284b31caa700ffd",
+            "utm_campaign": "",
+            "utm_medium": "",
+            "utm_content": "",
+            "utm_term": "",
+            "xcod": "",
+            "fbclid": null,
+            "gclid": null,
+            "ttclid": null
+        }
+    },
+    {
+        "timestamp": "2025-08-11 04:34:34",
+        "type": "analise_campos_utm_pago",
+        "data": {
+            "utm_source": "organicjLj68997130c284b31caa700ffd",
+            "utm_campaign": "",
+            "utm_medium": "",
+            "utm_content": "",
+            "utm_term": "",
+            "src": "N\u00c3O ENCONTRADO",
+            "sck": "",
+            "xcod": "",
+            "fbclid": "N\u00c3O ENCONTRADO",
+            "gclid": "N\u00c3O ENCONTRADO",
+            "ttclid": "N\u00c3O ENCONTRADO"
+        }
+    },
+    {
+        "timestamp": "2025-08-11 04:34:34",
+        "type": "payload_final_utmify_pago",
+        "data": {
+            "orderId": "c77c3ab6-28be-41b1-a12a-7c6c34d0048d",
+            "platform": "BuckPay",
+            "paymentMethod": "pix",
+            "status": "paid",
+            "createdAt": "2025-08-11T04:33:02.637+00:00",
+            "approvedDate": "2025-08-11 04:34:34",
+            "refundedAt": null,
+            "customer": {
+                "name": "Cliente Recarga",
+                "email": "murillorickelme4@gmail.com",
+                "phone": "5511951632190",
+                "document": "52849382086",
+                "country": "BR",
+                "ip": "2a02:4780:13::f"
+            },
+            "products": [
+                {
+                    "id": "recarga-freefire",
+                    "name": "Recarga Free Fire",
+                    "planId": null,
+                    "planName": null,
+                    "quantity": 1,
+                    "priceInCents": 1997
+                }
+            ],
+            "trackingParameters": {
+                "src": null,
+                "sck": "",
+                "utm_source": "organicjLj68997130c284b31caa700ffd",
+                "utm_campaign": "",
+                "utm_medium": "",
+                "utm_content": "",
+                "utm_term": "",
+                "xcod": "",
+                "fbclid": null,
+                "gclid": null,
+                "ttclid": null
+            },
+            "commission": {
+                "totalPriceInCents": 1997,
+                "gatewayFeeInCents": 0,
+                "userCommissionInCents": 1997
+            },
+            "isTest": false
+        }
+    },
+    {
+        "timestamp": "2025-08-11 04:34:34",
+        "type": "tracking_parameters_enviados_pago",
+        "data": {
+            "src": null,
+            "sck": "",
+            "utm_source": "organicjLj68997130c284b31caa700ffd",
+            "utm_campaign": "",
+            "utm_medium": "",
+            "utm_content": "",
+            "utm_term": "",
+            "xcod": "",
+            "fbclid": null,
+            "gclid": null,
+            "ttclid": null
+        }
+    },
+    {
+        "timestamp": "2025-08-11 04:34:34",
+        "type": "json_final_envio_pago",
+        "data": {
+            "json_payload": "{\"orderId\":\"c77c3ab6-28be-41b1-a12a-7c6c34d0048d\",\"platform\":\"BuckPay\",\"paymentMethod\":\"pix\",\"status\":\"paid\",\"createdAt\":\"2025-08-11T04:33:02.637+00:00\",\"approvedDate\":\"2025-08-11 04:34:34\",\"refundedAt\":null,\"customer\":{\"name\":\"Cliente Recarga\",\"email\":\"murillorickelme4@gmail.com\",\"phone\":\"5511951632190\",\"document\":\"52849382086\",\"country\":\"BR\",\"ip\":\"2a02:4780:13::f\"},\"products\":[{\"id\":\"recarga-freefire\",\"name\":\"Recarga Free Fire\",\"planId\":null,\"planName\":null,\"quantity\":1,\"priceInCents\":1997}],\"trackingParameters\":{\"src\":null,\"sck\":\"\",\"utm_source\":\"organicjLj68997130c284b31caa700ffd\",\"utm_campaign\":\"\",\"utm_medium\":\"\",\"utm_content\":\"\",\"utm_term\":\"\",\"xcod\":\"\",\"fbclid\":null,\"gclid\":null,\"ttclid\":null},\"commission\":{\"totalPriceInCents\":1997,\"gatewayFeeInCents\":0,\"userCommissionInCents\":1997},\"isTest\":false}"
+        }
+    },
+    {
+        "timestamp": "2025-08-11 04:34:34",
+        "type": "resposta_api_utmify_pago",
+        "data": {
+            "http_code": 200,
+            "response": {
+                "OK": true,
+                "data": [],
+                "result": "SUCCESS"
+            }
+        }
+    }
+]

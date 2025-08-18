@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ativação de Diamantes</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Inter', sans-serif;
+      background-color: #f9fafb;
+      color: #1f2937;
+    }
+
+    .alerta-topo {
+      background-color: #dc2626;
+      color: #fff;
+      text-align: center;
+      font-size: 14px;
+      font-weight: 600;
+      padding: 10px 15px;
+    }
+
+    .container {
+      max-width: 420px;
+      margin: 0 auto;
+      padding: 30px 20px;
+      background: #ffffff;
+      border-radius: 12px;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+      margin-top: 8px;
+      text-align: center;
+    }
+
+.icon-topo {
+  margin-bottom: 4px; /* antes era 10px */
+  margin-top: -6px;   /* NOVO: sobe levemente a logo */
+  width: 42px;        /* opcional: deixa menor e mais proporcional */
+}
+    h1 {
+      font-size: 22px;
+      color: #111827;
+      font-weight: 700;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 15px;
+      line-height: 1.5;
+      color: #374151;
+    }
+
+    .highlight {
+      color: #059669;
+      font-weight: 600;
+    }
+
+    .video-container {
+      margin: 20px 0;
+      border-radius: 8px;
+      overflow: hidden;
+    }
+
+    .btn-finalizar {
+      background-color: #10b981;
+      color: #ffffff;
+      padding: 14px;
+      font-size: 16px;
+      font-weight: 600;
+      border: none;
+      border-radius: 8px;
+      width: 100%;
+      cursor: pointer;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+      display: none;
+    }
+
+    .btn-finalizar.show {
+      display: block;
+      margin-top: 20px;
+      animation: pulse 0.6s ease forwards;
+    }
+
+    .btn-finalizar:hover {
+      background-color: #059669;
+    }
+
+    @keyframes pulse {
+      0% {
+        transform: scale(0.95);
+        box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+      }
+      100% {
+        transform: scale(1);
+        box-shadow: 0 4px 14px rgba(0, 0, 0, 0.1);
+      }
+    }
+
+    .cronometro {
+      font-size: 14px;
+      margin-top: 15px;
+      color: #dc2626;
+      font-weight: 500;
+    }
+
+    .etapa {
+      font-size: 13px;
+      color: #6b7280;
+      margin-top: 10px;
+    }
+
+    @media (max-width: 500px) {
+      .container {
+        margin: 20px 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="alerta-topo">
+    ⚠️ ATENÇÃO: Essa é a última etapa para liberar seus diamantes. Não feche a página!
+  </div>
+
+  <div class="container">
+    <img class="icon-topo" src="https://cdn.discordapp.com/attachments/1132570540318658590/1393332203718443118/5a9a7e16-1f67-41d1-b0e4-59345ed9cc48__link-in-bio__links-block__home__eeb1e3a7-3210-4430-9ef3-ea8b2b982e3c__ee20cb43-e85e-4e43-89fa-24d0523dbb51__50bd7137-9687-4a09-9fcc-48c8003511f8.webp?ex=6872c93c&is=687177bc&hm=d080721b95501e193c79a81acef8cb770b3b044a44195ea8024e8992099effbc&" alt="Ícone de diamante" />
+
+    <div class="etapa">Etapa 2 de 2 – Confirmação Final</div>
+
+    <h1>Ative seus diamantes</h1>
+    <p>
+      Assista ao vídeo abaixo e finalize a verificação.<br />
+      <span class="highlight">A taxa é devolvida em até 5 minutos.</span>
+    </p>
+
+    <div class="video-container">
+      <vturb-smartplayer id="vid-687175dfff8fb5cdca32a8f9" style="display: block; margin: 0 auto; width: 100%;"></vturb-smartplayer>
+    </div>
+
+    <button id="finalizarBtn" class="btn-finalizar" onclick="window.location.href='https://seu-checkout.com'">
+      Finalizar verificação
+    </button>
+
+    <div class="cronometro">
+      ⏳ Expira em: <span id="timer">05:00</span>
+    </div>
+  </div>
+
+  <!-- Script do player VTURB -->
+  <script type="text/javascript">
+    var s = document.createElement("script");
+    s.src = "https://scripts.converteai.net/df448086-e8ec-4886-afb0-5f127f48fa5f/players/687175dfff8fb5cdca32a8f9/v4/player.js";
+    s.async = true;
+    document.head.appendChild(s);
+
+    // Espera o evento de fim do vídeo
+    window.addEventListener("message", function (event) {
+      if (typeof event.data === "string" && event.data.includes("vsl:ended")) {
+        document.getElementById("finalizarBtn").classList.add("show");
+      }
+    });
+  </script>
+
+  <!-- Cronômetro -->
+  <script>
+    let tempo = 300;
+    const timer = document.getElementById("timer");
+    const intervalo = setInterval(() => {
+      let min = Math.floor(tempo / 60);
+      let seg = tempo % 60;
+      if (seg < 10) seg = "0" + seg;
+      timer.textContent = `${min}:${seg}`;
+      tempo--;
+      if (tempo < 0) clearInterval(intervalo);
+    }, 1000);
+  </script>
+
+</body>
+</html>

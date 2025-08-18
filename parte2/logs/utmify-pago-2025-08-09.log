@@ -1,0 +1,1570 @@
+[2025-08-09 18:04:02] 📥 PAYLOAD RAW RECEBIDO (PAGO)
+Dados: {
+    "raw_data": "{\"external_id\":\"aabdd6a9-dda9-481f-9771-8a31af607431\",\"amount\":1997,\"createdAt\":\"2025-08-09T18:02:58.328+00:00\",\"buyer\":{\"name\":\"Cliente Recarga\",\"email\":\"comprador@frifas.com\",\"document\":\"52849382086\",\"phone\":\"5598981218016\"},\"product\":{\"id\":\"recarga-freefire\",\"name\":\"Recarga Free Fire\"},\"offer\":{\"id\":\"oferta-recarga\",\"name\":\"Recarga Jogo\",\"quantity\":1},\"trackingParameters\":{\"src\":null,\"sck\":\"\",\"utm_source\":\"FBjLj688bc43d31db2275faacfeb7\",\"utm_campaign\":\"{{campaign.name}}|{{campaign.id}}\",\"utm_medium\":\"{{adset.name}}|{{adset.id}}\",\"utm_content\":\"{{ad.name}}|{{ad.id}}\",\"utm_term\":\"{{placement}}\",\"xcod\":\"\",\"fbclid\":null,\"gclid\":null,\"ttclid\":null}}"
+}
+----------------------------------------
+[2025-08-09 18:04:02] 🔄 PAYLOAD DECODIFICADO (PAGO)
+Dados: {
+    "external_id": "aabdd6a9-dda9-481f-9771-8a31af607431",
+    "amount": 1997,
+    "createdAt": "2025-08-09T18:02:58.328+00:00",
+    "buyer": {
+        "name": "Cliente Recarga",
+        "email": "comprador@frifas.com",
+        "document": "52849382086",
+        "phone": "5598981218016"
+    },
+    "product": {
+        "id": "recarga-freefire",
+        "name": "Recarga Free Fire"
+    },
+    "offer": {
+        "id": "oferta-recarga",
+        "name": "Recarga Jogo",
+        "quantity": 1
+    },
+    "trackingParameters": {
+        "src": null,
+        "sck": "",
+        "utm_source": "FBjLj688bc43d31db2275faacfeb7",
+        "utm_campaign": "{{campaign.name}}|{{campaign.id}}",
+        "utm_medium": "{{adset.name}}|{{adset.id}}",
+        "utm_content": "{{ad.name}}|{{ad.id}}",
+        "utm_term": "{{placement}}",
+        "xcod": "",
+        "fbclid": null,
+        "gclid": null,
+        "ttclid": null
+    }
+}
+----------------------------------------
+[2025-08-09 18:04:02] 🎯 TRACKING PARAMETERS RECEBIDOS (PAGO)
+Dados: {
+    "src": null,
+    "sck": "",
+    "utm_source": "FBjLj688bc43d31db2275faacfeb7",
+    "utm_campaign": "{{campaign.name}}|{{campaign.id}}",
+    "utm_medium": "{{adset.name}}|{{adset.id}}",
+    "utm_content": "{{ad.name}}|{{ad.id}}",
+    "utm_term": "{{placement}}",
+    "xcod": "",
+    "fbclid": null,
+    "gclid": null,
+    "ttclid": null
+}
+----------------------------------------
+[2025-08-09 18:04:02] 🔍 ANÁLISE INDIVIDUAL DOS CAMPOS UTM (PAGO)
+Dados: {
+    "utm_source": "FBjLj688bc43d31db2275faacfeb7",
+    "utm_campaign": "{{campaign.name}}|{{campaign.id}}",
+    "utm_medium": "{{adset.name}}|{{adset.id}}",
+    "utm_content": "{{ad.name}}|{{ad.id}}",
+    "utm_term": "{{placement}}",
+    "src": "N\u00c3O ENCONTRADO",
+    "sck": "",
+    "xcod": "",
+    "fbclid": "N\u00c3O ENCONTRADO",
+    "gclid": "N\u00c3O ENCONTRADO",
+    "ttclid": "N\u00c3O ENCONTRADO"
+}
+----------------------------------------
+[2025-08-09 18:04:02] 📤 PAYLOAD FINAL PARA UTMIFY (PAGO)
+Dados: {
+    "orderId": "aabdd6a9-dda9-481f-9771-8a31af607431",
+    "platform": "BuckPay",
+    "paymentMethod": "pix",
+    "status": "paid",
+    "createdAt": "2025-08-09T18:02:58.328+00:00",
+    "approvedDate": "2025-08-09 18:04:02",
+    "refundedAt": null,
+    "customer": {
+        "name": "Cliente Recarga",
+        "email": "comprador@frifas.com",
+        "phone": "5598981218016",
+        "document": "52849382086",
+        "country": "BR",
+        "ip": "2a02:4780:13::f"
+    },
+    "products": [
+        {
+            "id": "recarga-freefire",
+            "name": "Recarga Free Fire",
+            "planId": null,
+            "planName": null,
+            "quantity": 1,
+            "priceInCents": 1997
+        }
+    ],
+    "trackingParameters": {
+        "src": null,
+        "sck": "",
+        "utm_source": "FBjLj688bc43d31db2275faacfeb7",
+        "utm_campaign": "{{campaign.name}}|{{campaign.id}}",
+        "utm_medium": "{{adset.name}}|{{adset.id}}",
+        "utm_content": "{{ad.name}}|{{ad.id}}",
+        "utm_term": "{{placement}}",
+        "xcod": "",
+        "fbclid": null,
+        "gclid": null,
+        "ttclid": null
+    },
+    "commission": {
+        "totalPriceInCents": 1997,
+        "gatewayFeeInCents": 0,
+        "userCommissionInCents": 1997
+    },
+    "isTest": false
+}
+----------------------------------------
+[2025-08-09 18:04:02] 🎯 TRACKING PARAMETERS QUE SERÃO ENVIADOS (PAGO)
+Dados: {
+    "src": null,
+    "sck": "",
+    "utm_source": "FBjLj688bc43d31db2275faacfeb7",
+    "utm_campaign": "{{campaign.name}}|{{campaign.id}}",
+    "utm_medium": "{{adset.name}}|{{adset.id}}",
+    "utm_content": "{{ad.name}}|{{ad.id}}",
+    "utm_term": "{{placement}}",
+    "xcod": "",
+    "fbclid": null,
+    "gclid": null,
+    "ttclid": null
+}
+----------------------------------------
+[2025-08-09 18:04:02] 📦 JSON FINAL PARA ENVIO (PAGO)
+Dados: {
+    "json_payload": "{\"orderId\":\"aabdd6a9-dda9-481f-9771-8a31af607431\",\"platform\":\"BuckPay\",\"paymentMethod\":\"pix\",\"status\":\"paid\",\"createdAt\":\"2025-08-09T18:02:58.328+00:00\",\"approvedDate\":\"2025-08-09 18:04:02\",\"refundedAt\":null,\"customer\":{\"name\":\"Cliente Recarga\",\"email\":\"comprador@frifas.com\",\"phone\":\"5598981218016\",\"document\":\"52849382086\",\"country\":\"BR\",\"ip\":\"2a02:4780:13::f\"},\"products\":[{\"id\":\"recarga-freefire\",\"name\":\"Recarga Free Fire\",\"planId\":null,\"planName\":null,\"quantity\":1,\"priceInCents\":1997}],\"trackingParameters\":{\"src\":null,\"sck\":\"\",\"utm_source\":\"FBjLj688bc43d31db2275faacfeb7\",\"utm_campaign\":\"{{campaign.name}}|{{campaign.id}}\",\"utm_medium\":\"{{adset.name}}|{{adset.id}}\",\"utm_content\":\"{{ad.name}}|{{ad.id}}\",\"utm_term\":\"{{placement}}\",\"xcod\":\"\",\"fbclid\":null,\"gclid\":null,\"ttclid\":null},\"commission\":{\"totalPriceInCents\":1997,\"gatewayFeeInCents\":0,\"userCommissionInCents\":1997},\"isTest\":false}"
+}
+----------------------------------------
+[2025-08-09 18:04:02] 📡 Enviando requisição para Utmify
+Dados: {
+    "url": "https:\/\/api.utmify.com.br\/api-credentials\/orders",
+    "headers": [
+        "Content-Type: application\/json",
+        "x-api-token: [REDACTED]"
+    ]
+}
+----------------------------------------
+[2025-08-09 18:04:02] ✅ Resposta da API Utmify
+Dados: {
+    "http_code": 200,
+    "response": {
+        "OK": true,
+        "data": [],
+        "result": "SUCCESS"
+    }
+}
+----------------------------------------
+[2025-08-09 18:41:15] 📥 PAYLOAD RAW RECEBIDO (PAGO)
+Dados: {
+    "raw_data": "{\"external_id\":\"1e9dd261-9881-466a-936e-34682680a39a\",\"amount\":1997,\"createdAt\":\"2025-08-09T18:36:49.485+00:00\",\"buyer\":{\"name\":\"Cliente Recarga\",\"email\":\"alinemaria.com.263@gmail.com\",\"document\":\"52849382086\",\"phone\":\"5562992681213\"},\"product\":{\"id\":\"recarga-freefire\",\"name\":\"Recarga Free Fire\"},\"offer\":{\"id\":\"oferta-recarga\",\"name\":\"Recarga Jogo\",\"quantity\":1},\"trackingParameters\":{\"src\":null,\"sck\":\"\",\"utm_source\":\"FBjLj689793998a6d47f51c9b4445\",\"utm_campaign\":\"1-1-1 - CBO 22 [3] - TESTE|120233748821210170\",\"utm_medium\":\"CTV 1|120233748821290170\",\"utm_content\":\"CTV 1|120233748821200170::PAZXh0bgNhZW0BMABhZGlkAasn9Sf4EzoBp3EkSEbqC4-kTghXPRx3fEZNMZ6qgpgeV44Gtl9gIAY6RmiRuZlxb8XmSpu3_aem_-u2FRkTx5DTY9N7IUON55g::\",\"utm_term\":\"Instagram_Reels\",\"xcod\":\"\",\"fbclid\":null,\"gclid\":null,\"ttclid\":null}}"
+}
+----------------------------------------
+[2025-08-09 18:41:15] 🔄 PAYLOAD DECODIFICADO (PAGO)
+Dados: {
+    "external_id": "1e9dd261-9881-466a-936e-34682680a39a",
+    "amount": 1997,
+    "createdAt": "2025-08-09T18:36:49.485+00:00",
+    "buyer": {
+        "name": "Cliente Recarga",
+        "email": "alinemaria.com.263@gmail.com",
+        "document": "52849382086",
+        "phone": "5562992681213"
+    },
+    "product": {
+        "id": "recarga-freefire",
+        "name": "Recarga Free Fire"
+    },
+    "offer": {
+        "id": "oferta-recarga",
+        "name": "Recarga Jogo",
+        "quantity": 1
+    },
+    "trackingParameters": {
+        "src": null,
+        "sck": "",
+        "utm_source": "FBjLj689793998a6d47f51c9b4445",
+        "utm_campaign": "1-1-1 - CBO 22 [3] - TESTE|120233748821210170",
+        "utm_medium": "CTV 1|120233748821290170",
+        "utm_content": "CTV 1|120233748821200170::PAZXh0bgNhZW0BMABhZGlkAasn9Sf4EzoBp3EkSEbqC4-kTghXPRx3fEZNMZ6qgpgeV44Gtl9gIAY6RmiRuZlxb8XmSpu3_aem_-u2FRkTx5DTY9N7IUON55g::",
+        "utm_term": "Instagram_Reels",
+        "xcod": "",
+        "fbclid": null,
+        "gclid": null,
+        "ttclid": null
+    }
+}
+----------------------------------------
+[2025-08-09 18:41:15] 🎯 TRACKING PARAMETERS RECEBIDOS (PAGO)
+Dados: {
+    "src": null,
+    "sck": "",
+    "utm_source": "FBjLj689793998a6d47f51c9b4445",
+    "utm_campaign": "1-1-1 - CBO 22 [3] - TESTE|120233748821210170",
+    "utm_medium": "CTV 1|120233748821290170",
+    "utm_content": "CTV 1|120233748821200170::PAZXh0bgNhZW0BMABhZGlkAasn9Sf4EzoBp3EkSEbqC4-kTghXPRx3fEZNMZ6qgpgeV44Gtl9gIAY6RmiRuZlxb8XmSpu3_aem_-u2FRkTx5DTY9N7IUON55g::",
+    "utm_term": "Instagram_Reels",
+    "xcod": "",
+    "fbclid": null,
+    "gclid": null,
+    "ttclid": null
+}
+----------------------------------------
+[2025-08-09 18:41:15] 🔍 ANÁLISE INDIVIDUAL DOS CAMPOS UTM (PAGO)
+Dados: {
+    "utm_source": "FBjLj689793998a6d47f51c9b4445",
+    "utm_campaign": "1-1-1 - CBO 22 [3] - TESTE|120233748821210170",
+    "utm_medium": "CTV 1|120233748821290170",
+    "utm_content": "CTV 1|120233748821200170::PAZXh0bgNhZW0BMABhZGlkAasn9Sf4EzoBp3EkSEbqC4-kTghXPRx3fEZNMZ6qgpgeV44Gtl9gIAY6RmiRuZlxb8XmSpu3_aem_-u2FRkTx5DTY9N7IUON55g::",
+    "utm_term": "Instagram_Reels",
+    "src": "N\u00c3O ENCONTRADO",
+    "sck": "",
+    "xcod": "",
+    "fbclid": "N\u00c3O ENCONTRADO",
+    "gclid": "N\u00c3O ENCONTRADO",
+    "ttclid": "N\u00c3O ENCONTRADO"
+}
+----------------------------------------
+[2025-08-09 18:41:15] 📤 PAYLOAD FINAL PARA UTMIFY (PAGO)
+Dados: {
+    "orderId": "1e9dd261-9881-466a-936e-34682680a39a",
+    "platform": "BuckPay",
+    "paymentMethod": "pix",
+    "status": "paid",
+    "createdAt": "2025-08-09T18:36:49.485+00:00",
+    "approvedDate": "2025-08-09 18:41:15",
+    "refundedAt": null,
+    "customer": {
+        "name": "Cliente Recarga",
+        "email": "alinemaria.com.263@gmail.com",
+        "phone": "5562992681213",
+        "document": "52849382086",
+        "country": "BR",
+        "ip": "2a02:4780:13::f"
+    },
+    "products": [
+        {
+            "id": "recarga-freefire",
+            "name": "Recarga Free Fire",
+            "planId": null,
+            "planName": null,
+            "quantity": 1,
+            "priceInCents": 1997
+        }
+    ],
+    "trackingParameters": {
+        "src": null,
+        "sck": "",
+        "utm_source": "FBjLj689793998a6d47f51c9b4445",
+        "utm_campaign": "1-1-1 - CBO 22 [3] - TESTE|120233748821210170",
+        "utm_medium": "CTV 1|120233748821290170",
+        "utm_content": "CTV 1|120233748821200170::PAZXh0bgNhZW0BMABhZGlkAasn9Sf4EzoBp3EkSEbqC4-kTghXPRx3fEZNMZ6qgpgeV44Gtl9gIAY6RmiRuZlxb8XmSpu3_aem_-u2FRkTx5DTY9N7IUON55g::",
+        "utm_term": "Instagram_Reels",
+        "xcod": "",
+        "fbclid": null,
+        "gclid": null,
+        "ttclid": null
+    },
+    "commission": {
+        "totalPriceInCents": 1997,
+        "gatewayFeeInCents": 0,
+        "userCommissionInCents": 1997
+    },
+    "isTest": false
+}
+----------------------------------------
+[2025-08-09 18:41:15] 🎯 TRACKING PARAMETERS QUE SERÃO ENVIADOS (PAGO)
+Dados: {
+    "src": null,
+    "sck": "",
+    "utm_source": "FBjLj689793998a6d47f51c9b4445",
+    "utm_campaign": "1-1-1 - CBO 22 [3] - TESTE|120233748821210170",
+    "utm_medium": "CTV 1|120233748821290170",
+    "utm_content": "CTV 1|120233748821200170::PAZXh0bgNhZW0BMABhZGlkAasn9Sf4EzoBp3EkSEbqC4-kTghXPRx3fEZNMZ6qgpgeV44Gtl9gIAY6RmiRuZlxb8XmSpu3_aem_-u2FRkTx5DTY9N7IUON55g::",
+    "utm_term": "Instagram_Reels",
+    "xcod": "",
+    "fbclid": null,
+    "gclid": null,
+    "ttclid": null
+}
+----------------------------------------
+[2025-08-09 18:41:15] 📦 JSON FINAL PARA ENVIO (PAGO)
+Dados: {
+    "json_payload": "{\"orderId\":\"1e9dd261-9881-466a-936e-34682680a39a\",\"platform\":\"BuckPay\",\"paymentMethod\":\"pix\",\"status\":\"paid\",\"createdAt\":\"2025-08-09T18:36:49.485+00:00\",\"approvedDate\":\"2025-08-09 18:41:15\",\"refundedAt\":null,\"customer\":{\"name\":\"Cliente Recarga\",\"email\":\"alinemaria.com.263@gmail.com\",\"phone\":\"5562992681213\",\"document\":\"52849382086\",\"country\":\"BR\",\"ip\":\"2a02:4780:13::f\"},\"products\":[{\"id\":\"recarga-freefire\",\"name\":\"Recarga Free Fire\",\"planId\":null,\"planName\":null,\"quantity\":1,\"priceInCents\":1997}],\"trackingParameters\":{\"src\":null,\"sck\":\"\",\"utm_source\":\"FBjLj689793998a6d47f51c9b4445\",\"utm_campaign\":\"1-1-1 - CBO 22 [3] - TESTE|120233748821210170\",\"utm_medium\":\"CTV 1|120233748821290170\",\"utm_content\":\"CTV 1|120233748821200170::PAZXh0bgNhZW0BMABhZGlkAasn9Sf4EzoBp3EkSEbqC4-kTghXPRx3fEZNMZ6qgpgeV44Gtl9gIAY6RmiRuZlxb8XmSpu3_aem_-u2FRkTx5DTY9N7IUON55g::\",\"utm_term\":\"Instagram_Reels\",\"xcod\":\"\",\"fbclid\":null,\"gclid\":null,\"ttclid\":null},\"commission\":{\"totalPriceInCents\":1997,\"gatewayFeeInCents\":0,\"userCommissionInCents\":1997},\"isTest\":false}"
+}
+----------------------------------------
+[2025-08-09 18:41:15] 📡 Enviando requisição para Utmify
+Dados: {
+    "url": "https:\/\/api.utmify.com.br\/api-credentials\/orders",
+    "headers": [
+        "Content-Type: application\/json",
+        "x-api-token: [REDACTED]"
+    ]
+}
+----------------------------------------
+[2025-08-09 18:41:15] ✅ Resposta da API Utmify
+Dados: {
+    "http_code": 200,
+    "response": {
+        "OK": true,
+        "data": [],
+        "result": "SUCCESS"
+    }
+}
+----------------------------------------
+[2025-08-09 18:51:23] 📥 PAYLOAD RAW RECEBIDO (PAGO)
+Dados: {
+    "raw_data": "{\"external_id\":\"76588feb-57da-4f4c-93fa-0ea5208ab0b3\",\"amount\":3436,\"createdAt\":\"2025-08-09T18:50:51.637+00:00\",\"buyer\":{\"name\":\"Cliente Recarga\",\"email\":\"bernardoferreirafelix16@gmail.com\",\"document\":\"52849382086\",\"phone\":\"5537991111105\"},\"product\":{\"id\":\"recarga-freefire\",\"name\":\"Recarga Free Fire\"},\"offer\":{\"id\":\"oferta-recarga\",\"name\":\"Recarga Jogo\",\"quantity\":1},\"trackingParameters\":{\"src\":null,\"sck\":\"\",\"utm_source\":\"FBjLj689796dfec9a9d21d3f70330\",\"utm_campaign\":\"1-1-1 - CBO 18 [5] - 9 V \\u2014 C\\u00f3pia|120233574290800170\",\"utm_medium\":\"CTV 1|120233574291050170\",\"utm_content\":\"CTV 1|120233574291580170::PAZXh0bgNhZW0BMABhZGlkAasnzK-q1NoBpzIHW8VGNklyzy-peN8dLvu75hopzY3EQoIw-yqMqIXUynK_wkxQPbeJjsWT_aem_DW4WNW8HVwviUmBsKrHmTA::\",\"utm_term\":\"Instagram_Reels\",\"xcod\":\"\",\"fbclid\":null,\"gclid\":null,\"ttclid\":null}}"
+}
+----------------------------------------
+[2025-08-09 18:51:23] 🔄 PAYLOAD DECODIFICADO (PAGO)
+Dados: {
+    "external_id": "76588feb-57da-4f4c-93fa-0ea5208ab0b3",
+    "amount": 3436,
+    "createdAt": "2025-08-09T18:50:51.637+00:00",
+    "buyer": {
+        "name": "Cliente Recarga",
+        "email": "bernardoferreirafelix16@gmail.com",
+        "document": "52849382086",
+        "phone": "5537991111105"
+    },
+    "product": {
+        "id": "recarga-freefire",
+        "name": "Recarga Free Fire"
+    },
+    "offer": {
+        "id": "oferta-recarga",
+        "name": "Recarga Jogo",
+        "quantity": 1
+    },
+    "trackingParameters": {
+        "src": null,
+        "sck": "",
+        "utm_source": "FBjLj689796dfec9a9d21d3f70330",
+        "utm_campaign": "1-1-1 - CBO 18 [5] - 9 V \u2014 C\u00f3pia|120233574290800170",
+        "utm_medium": "CTV 1|120233574291050170",
+        "utm_content": "CTV 1|120233574291580170::PAZXh0bgNhZW0BMABhZGlkAasnzK-q1NoBpzIHW8VGNklyzy-peN8dLvu75hopzY3EQoIw-yqMqIXUynK_wkxQPbeJjsWT_aem_DW4WNW8HVwviUmBsKrHmTA::",
+        "utm_term": "Instagram_Reels",
+        "xcod": "",
+        "fbclid": null,
+        "gclid": null,
+        "ttclid": null
+    }
+}
+----------------------------------------
+[2025-08-09 18:51:23] 🎯 TRACKING PARAMETERS RECEBIDOS (PAGO)
+Dados: {
+    "src": null,
+    "sck": "",
+    "utm_source": "FBjLj689796dfec9a9d21d3f70330",
+    "utm_campaign": "1-1-1 - CBO 18 [5] - 9 V \u2014 C\u00f3pia|120233574290800170",
+    "utm_medium": "CTV 1|120233574291050170",
+    "utm_content": "CTV 1|120233574291580170::PAZXh0bgNhZW0BMABhZGlkAasnzK-q1NoBpzIHW8VGNklyzy-peN8dLvu75hopzY3EQoIw-yqMqIXUynK_wkxQPbeJjsWT_aem_DW4WNW8HVwviUmBsKrHmTA::",
+    "utm_term": "Instagram_Reels",
+    "xcod": "",
+    "fbclid": null,
+    "gclid": null,
+    "ttclid": null
+}
+----------------------------------------
+[2025-08-09 18:51:23] 🔍 ANÁLISE INDIVIDUAL DOS CAMPOS UTM (PAGO)
+Dados: {
+    "utm_source": "FBjLj689796dfec9a9d21d3f70330",
+    "utm_campaign": "1-1-1 - CBO 18 [5] - 9 V \u2014 C\u00f3pia|120233574290800170",
+    "utm_medium": "CTV 1|120233574291050170",
+    "utm_content": "CTV 1|120233574291580170::PAZXh0bgNhZW0BMABhZGlkAasnzK-q1NoBpzIHW8VGNklyzy-peN8dLvu75hopzY3EQoIw-yqMqIXUynK_wkxQPbeJjsWT_aem_DW4WNW8HVwviUmBsKrHmTA::",
+    "utm_term": "Instagram_Reels",
+    "src": "N\u00c3O ENCONTRADO",
+    "sck": "",
+    "xcod": "",
+    "fbclid": "N\u00c3O ENCONTRADO",
+    "gclid": "N\u00c3O ENCONTRADO",
+    "ttclid": "N\u00c3O ENCONTRADO"
+}
+----------------------------------------
+[2025-08-09 18:51:23] 📤 PAYLOAD FINAL PARA UTMIFY (PAGO)
+Dados: {
+    "orderId": "76588feb-57da-4f4c-93fa-0ea5208ab0b3",
+    "platform": "BuckPay",
+    "paymentMethod": "pix",
+    "status": "paid",
+    "createdAt": "2025-08-09T18:50:51.637+00:00",
+    "approvedDate": "2025-08-09 18:51:23",
+    "refundedAt": null,
+    "customer": {
+        "name": "Cliente Recarga",
+        "email": "bernardoferreirafelix16@gmail.com",
+        "phone": "5537991111105",
+        "document": "52849382086",
+        "country": "BR",
+        "ip": "2a02:4780:13::f"
+    },
+    "products": [
+        {
+            "id": "recarga-freefire",
+            "name": "Recarga Free Fire",
+            "planId": null,
+            "planName": null,
+            "quantity": 1,
+            "priceInCents": 3436
+        }
+    ],
+    "trackingParameters": {
+        "src": null,
+        "sck": "",
+        "utm_source": "FBjLj689796dfec9a9d21d3f70330",
+        "utm_campaign": "1-1-1 - CBO 18 [5] - 9 V \u2014 C\u00f3pia|120233574290800170",
+        "utm_medium": "CTV 1|120233574291050170",
+        "utm_content": "CTV 1|120233574291580170::PAZXh0bgNhZW0BMABhZGlkAasnzK-q1NoBpzIHW8VGNklyzy-peN8dLvu75hopzY3EQoIw-yqMqIXUynK_wkxQPbeJjsWT_aem_DW4WNW8HVwviUmBsKrHmTA::",
+        "utm_term": "Instagram_Reels",
+        "xcod": "",
+        "fbclid": null,
+        "gclid": null,
+        "ttclid": null
+    },
+    "commission": {
+        "totalPriceInCents": 3436,
+        "gatewayFeeInCents": 0,
+        "userCommissionInCents": 3436
+    },
+    "isTest": false
+}
+----------------------------------------
+[2025-08-09 18:51:23] 🎯 TRACKING PARAMETERS QUE SERÃO ENVIADOS (PAGO)
+Dados: {
+    "src": null,
+    "sck": "",
+    "utm_source": "FBjLj689796dfec9a9d21d3f70330",
+    "utm_campaign": "1-1-1 - CBO 18 [5] - 9 V \u2014 C\u00f3pia|120233574290800170",
+    "utm_medium": "CTV 1|120233574291050170",
+    "utm_content": "CTV 1|120233574291580170::PAZXh0bgNhZW0BMABhZGlkAasnzK-q1NoBpzIHW8VGNklyzy-peN8dLvu75hopzY3EQoIw-yqMqIXUynK_wkxQPbeJjsWT_aem_DW4WNW8HVwviUmBsKrHmTA::",
+    "utm_term": "Instagram_Reels",
+    "xcod": "",
+    "fbclid": null,
+    "gclid": null,
+    "ttclid": null
+}
+----------------------------------------
+[2025-08-09 18:51:23] 📦 JSON FINAL PARA ENVIO (PAGO)
+Dados: {
+    "json_payload": "{\"orderId\":\"76588feb-57da-4f4c-93fa-0ea5208ab0b3\",\"platform\":\"BuckPay\",\"paymentMethod\":\"pix\",\"status\":\"paid\",\"createdAt\":\"2025-08-09T18:50:51.637+00:00\",\"approvedDate\":\"2025-08-09 18:51:23\",\"refundedAt\":null,\"customer\":{\"name\":\"Cliente Recarga\",\"email\":\"bernardoferreirafelix16@gmail.com\",\"phone\":\"5537991111105\",\"document\":\"52849382086\",\"country\":\"BR\",\"ip\":\"2a02:4780:13::f\"},\"products\":[{\"id\":\"recarga-freefire\",\"name\":\"Recarga Free Fire\",\"planId\":null,\"planName\":null,\"quantity\":1,\"priceInCents\":3436}],\"trackingParameters\":{\"src\":null,\"sck\":\"\",\"utm_source\":\"FBjLj689796dfec9a9d21d3f70330\",\"utm_campaign\":\"1-1-1 - CBO 18 [5] - 9 V \\u2014 C\\u00f3pia|120233574290800170\",\"utm_medium\":\"CTV 1|120233574291050170\",\"utm_content\":\"CTV 1|120233574291580170::PAZXh0bgNhZW0BMABhZGlkAasnzK-q1NoBpzIHW8VGNklyzy-peN8dLvu75hopzY3EQoIw-yqMqIXUynK_wkxQPbeJjsWT_aem_DW4WNW8HVwviUmBsKrHmTA::\",\"utm_term\":\"Instagram_Reels\",\"xcod\":\"\",\"fbclid\":null,\"gclid\":null,\"ttclid\":null},\"commission\":{\"totalPriceInCents\":3436,\"gatewayFeeInCents\":0,\"userCommissionInCents\":3436},\"isTest\":false}"
+}
+----------------------------------------
+[2025-08-09 18:51:23] 📡 Enviando requisição para Utmify
+Dados: {
+    "url": "https:\/\/api.utmify.com.br\/api-credentials\/orders",
+    "headers": [
+        "Content-Type: application\/json",
+        "x-api-token: [REDACTED]"
+    ]
+}
+----------------------------------------
+[2025-08-09 18:51:23] ✅ Resposta da API Utmify
+Dados: {
+    "http_code": 200,
+    "response": {
+        "OK": true,
+        "data": [],
+        "result": "SUCCESS"
+    }
+}
+----------------------------------------
+[2025-08-09 19:22:22] 📥 PAYLOAD RAW RECEBIDO (PAGO)
+Dados: {
+    "raw_data": "{\"external_id\":\"3d66454d-e79c-4f17-9cd7-853ce9c61035\",\"amount\":1997,\"createdAt\":\"2025-08-09T19:20:16.611+00:00\",\"buyer\":{\"name\":\"Cliente Recarga\",\"email\":\"gabrielalvesdesouza093@gmail.com\",\"document\":\"52849382086\",\"phone\":\"5519999396643\"},\"product\":{\"id\":\"recarga-freefire\",\"name\":\"Recarga Free Fire\"},\"offer\":{\"id\":\"oferta-recarga\",\"name\":\"Recarga Jogo\",\"quantity\":1},\"trackingParameters\":{\"src\":null,\"sck\":\"\",\"utm_source\":\"FBjLj68979b5dd5c4875b5118217f\",\"utm_campaign\":\"1-1-1 - CBO 13 [1] - 3 V \\u2014 C\\u00f3pia|120233574291410170\",\"utm_medium\":\"CTV 01|120233574291120170\",\"utm_content\":\"CTV 01|120233574291180170::PAZXh0bgNhZW0BMABhZGlkAasnzKxDGMoBp75pofKvtoRr0xzRML-RqFlDgyxFw-wqAie8TFAPFm9cB_zGtLc8ozXbuc6x_aem_Ue-1y_g-4xBCoG6w9D2hkA::\",\"utm_term\":\"Instagram_Stories\",\"xcod\":\"\",\"fbclid\":null,\"gclid\":null,\"ttclid\":null}}"
+}
+----------------------------------------
+[2025-08-09 19:22:22] 🔄 PAYLOAD DECODIFICADO (PAGO)
+Dados: {
+    "external_id": "3d66454d-e79c-4f17-9cd7-853ce9c61035",
+    "amount": 1997,
+    "createdAt": "2025-08-09T19:20:16.611+00:00",
+    "buyer": {
+        "name": "Cliente Recarga",
+        "email": "gabrielalvesdesouza093@gmail.com",
+        "document": "52849382086",
+        "phone": "5519999396643"
+    },
+    "product": {
+        "id": "recarga-freefire",
+        "name": "Recarga Free Fire"
+    },
+    "offer": {
+        "id": "oferta-recarga",
+        "name": "Recarga Jogo",
+        "quantity": 1
+    },
+    "trackingParameters": {
+        "src": null,
+        "sck": "",
+        "utm_source": "FBjLj68979b5dd5c4875b5118217f",
+        "utm_campaign": "1-1-1 - CBO 13 [1] - 3 V \u2014 C\u00f3pia|120233574291410170",
+        "utm_medium": "CTV 01|120233574291120170",
+        "utm_content": "CTV 01|120233574291180170::PAZXh0bgNhZW0BMABhZGlkAasnzKxDGMoBp75pofKvtoRr0xzRML-RqFlDgyxFw-wqAie8TFAPFm9cB_zGtLc8ozXbuc6x_aem_Ue-1y_g-4xBCoG6w9D2hkA::",
+        "utm_term": "Instagram_Stories",
+        "xcod": "",
+        "fbclid": null,
+        "gclid": null,
+        "ttclid": null
+    }
+}
+----------------------------------------
+[2025-08-09 19:22:22] 🎯 TRACKING PARAMETERS RECEBIDOS (PAGO)
+Dados: {
+    "src": null,
+    "sck": "",
+    "utm_source": "FBjLj68979b5dd5c4875b5118217f",
+    "utm_campaign": "1-1-1 - CBO 13 [1] - 3 V \u2014 C\u00f3pia|120233574291410170",
+    "utm_medium": "CTV 01|120233574291120170",
+    "utm_content": "CTV 01|120233574291180170::PAZXh0bgNhZW0BMABhZGlkAasnzKxDGMoBp75pofKvtoRr0xzRML-RqFlDgyxFw-wqAie8TFAPFm9cB_zGtLc8ozXbuc6x_aem_Ue-1y_g-4xBCoG6w9D2hkA::",
+    "utm_term": "Instagram_Stories",
+    "xcod": "",
+    "fbclid": null,
+    "gclid": null,
+    "ttclid": null
+}
+----------------------------------------
+[2025-08-09 19:22:22] 🔍 ANÁLISE INDIVIDUAL DOS CAMPOS UTM (PAGO)
+Dados: {
+    "utm_source": "FBjLj68979b5dd5c4875b5118217f",
+    "utm_campaign": "1-1-1 - CBO 13 [1] - 3 V \u2014 C\u00f3pia|120233574291410170",
+    "utm_medium": "CTV 01|120233574291120170",
+    "utm_content": "CTV 01|120233574291180170::PAZXh0bgNhZW0BMABhZGlkAasnzKxDGMoBp75pofKvtoRr0xzRML-RqFlDgyxFw-wqAie8TFAPFm9cB_zGtLc8ozXbuc6x_aem_Ue-1y_g-4xBCoG6w9D2hkA::",
+    "utm_term": "Instagram_Stories",
+    "src": "N\u00c3O ENCONTRADO",
+    "sck": "",
+    "xcod": "",
+    "fbclid": "N\u00c3O ENCONTRADO",
+    "gclid": "N\u00c3O ENCONTRADO",
+    "ttclid": "N\u00c3O ENCONTRADO"
+}
+----------------------------------------
+[2025-08-09 19:22:22] 📤 PAYLOAD FINAL PARA UTMIFY (PAGO)
+Dados: {
+    "orderId": "3d66454d-e79c-4f17-9cd7-853ce9c61035",
+    "platform": "BuckPay",
+    "paymentMethod": "pix",
+    "status": "paid",
+    "createdAt": "2025-08-09T19:20:16.611+00:00",
+    "approvedDate": "2025-08-09 19:22:22",
+    "refundedAt": null,
+    "customer": {
+        "name": "Cliente Recarga",
+        "email": "gabrielalvesdesouza093@gmail.com",
+        "phone": "5519999396643",
+        "document": "52849382086",
+        "country": "BR",
+        "ip": "2a02:4780:13::f"
+    },
+    "products": [
+        {
+            "id": "recarga-freefire",
+            "name": "Recarga Free Fire",
+            "planId": null,
+            "planName": null,
+            "quantity": 1,
+            "priceInCents": 1997
+        }
+    ],
+    "trackingParameters": {
+        "src": null,
+        "sck": "",
+        "utm_source": "FBjLj68979b5dd5c4875b5118217f",
+        "utm_campaign": "1-1-1 - CBO 13 [1] - 3 V \u2014 C\u00f3pia|120233574291410170",
+        "utm_medium": "CTV 01|120233574291120170",
+        "utm_content": "CTV 01|120233574291180170::PAZXh0bgNhZW0BMABhZGlkAasnzKxDGMoBp75pofKvtoRr0xzRML-RqFlDgyxFw-wqAie8TFAPFm9cB_zGtLc8ozXbuc6x_aem_Ue-1y_g-4xBCoG6w9D2hkA::",
+        "utm_term": "Instagram_Stories",
+        "xcod": "",
+        "fbclid": null,
+        "gclid": null,
+        "ttclid": null
+    },
+    "commission": {
+        "totalPriceInCents": 1997,
+        "gatewayFeeInCents": 0,
+        "userCommissionInCents": 1997
+    },
+    "isTest": false
+}
+----------------------------------------
+[2025-08-09 19:22:22] 🎯 TRACKING PARAMETERS QUE SERÃO ENVIADOS (PAGO)
+Dados: {
+    "src": null,
+    "sck": "",
+    "utm_source": "FBjLj68979b5dd5c4875b5118217f",
+    "utm_campaign": "1-1-1 - CBO 13 [1] - 3 V \u2014 C\u00f3pia|120233574291410170",
+    "utm_medium": "CTV 01|120233574291120170",
+    "utm_content": "CTV 01|120233574291180170::PAZXh0bgNhZW0BMABhZGlkAasnzKxDGMoBp75pofKvtoRr0xzRML-RqFlDgyxFw-wqAie8TFAPFm9cB_zGtLc8ozXbuc6x_aem_Ue-1y_g-4xBCoG6w9D2hkA::",
+    "utm_term": "Instagram_Stories",
+    "xcod": "",
+    "fbclid": null,
+    "gclid": null,
+    "ttclid": null
+}
+----------------------------------------
+[2025-08-09 19:22:22] 📦 JSON FINAL PARA ENVIO (PAGO)
+Dados: {
+    "json_payload": "{\"orderId\":\"3d66454d-e79c-4f17-9cd7-853ce9c61035\",\"platform\":\"BuckPay\",\"paymentMethod\":\"pix\",\"status\":\"paid\",\"createdAt\":\"2025-08-09T19:20:16.611+00:00\",\"approvedDate\":\"2025-08-09 19:22:22\",\"refundedAt\":null,\"customer\":{\"name\":\"Cliente Recarga\",\"email\":\"gabrielalvesdesouza093@gmail.com\",\"phone\":\"5519999396643\",\"document\":\"52849382086\",\"country\":\"BR\",\"ip\":\"2a02:4780:13::f\"},\"products\":[{\"id\":\"recarga-freefire\",\"name\":\"Recarga Free Fire\",\"planId\":null,\"planName\":null,\"quantity\":1,\"priceInCents\":1997}],\"trackingParameters\":{\"src\":null,\"sck\":\"\",\"utm_source\":\"FBjLj68979b5dd5c4875b5118217f\",\"utm_campaign\":\"1-1-1 - CBO 13 [1] - 3 V \\u2014 C\\u00f3pia|120233574291410170\",\"utm_medium\":\"CTV 01|120233574291120170\",\"utm_content\":\"CTV 01|120233574291180170::PAZXh0bgNhZW0BMABhZGlkAasnzKxDGMoBp75pofKvtoRr0xzRML-RqFlDgyxFw-wqAie8TFAPFm9cB_zGtLc8ozXbuc6x_aem_Ue-1y_g-4xBCoG6w9D2hkA::\",\"utm_term\":\"Instagram_Stories\",\"xcod\":\"\",\"fbclid\":null,\"gclid\":null,\"ttclid\":null},\"commission\":{\"totalPriceInCents\":1997,\"gatewayFeeInCents\":0,\"userCommissionInCents\":1997},\"isTest\":false}"
+}
+----------------------------------------
+[2025-08-09 19:22:22] 📡 Enviando requisição para Utmify
+Dados: {
+    "url": "https:\/\/api.utmify.com.br\/api-credentials\/orders",
+    "headers": [
+        "Content-Type: application\/json",
+        "x-api-token: [REDACTED]"
+    ]
+}
+----------------------------------------
+[2025-08-09 19:22:22] ✅ Resposta da API Utmify
+Dados: {
+    "http_code": 200,
+    "response": {
+        "OK": true,
+        "data": [],
+        "result": "SUCCESS"
+    }
+}
+----------------------------------------
+[2025-08-09 19:41:44] 📥 PAYLOAD RAW RECEBIDO (PAGO)
+Dados: {
+    "raw_data": "{\"external_id\":\"49c4d38b-bfcf-43a9-a19a-c9db2d1da601\",\"amount\":1997,\"createdAt\":\"2025-08-09T19:36:26.102+00:00\",\"buyer\":{\"name\":\"Cliente Recarga\",\"email\":\"kauansousacombr6@gmail.com\",\"document\":\"52849382086\",\"phone\":\"5589981047615\"},\"product\":{\"id\":\"recarga-freefire\",\"name\":\"Recarga Free Fire\"},\"offer\":{\"id\":\"oferta-recarga\",\"name\":\"Recarga Jogo\",\"quantity\":1},\"trackingParameters\":{\"src\":null,\"sck\":\"organichQwK21wXxRhQwK21wXxRhQwK21wXxRhQwK21wXxR\",\"utm_source\":\"FBjLj68979c10440be0555c4f456e\",\"utm_campaign\":\"1-1-1 - CBO - TESTE 4 \\u2014 [DUPLICATE3]|120234229866980170\",\"utm_medium\":\"CTV1|120234229867070170\",\"utm_content\":\"CTV1|120234229867030170::PAZXh0bgNhZW0BMABhZGlkAasoZSQxK0oBpyS6_n-AXfPcEm62Wm_w47hHeHZQ_IMoAPVimMDjmSpxYR-PbhPoMUbjiwKe_aem_diYIP6PiJZrJSm1NPeNASA::\",\"utm_term\":\"Instagram_Reels\",\"xcod\":\"organichQwK21wXxRhQwK21wXxRhQwK21wXxRhQwK21wXxR\",\"fbclid\":null,\"gclid\":null,\"ttclid\":null}}"
+}
+----------------------------------------
+[2025-08-09 19:41:44] 🔄 PAYLOAD DECODIFICADO (PAGO)
+Dados: {
+    "external_id": "49c4d38b-bfcf-43a9-a19a-c9db2d1da601",
+    "amount": 1997,
+    "createdAt": "2025-08-09T19:36:26.102+00:00",
+    "buyer": {
+        "name": "Cliente Recarga",
+        "email": "kauansousacombr6@gmail.com",
+        "document": "52849382086",
+        "phone": "5589981047615"
+    },
+    "product": {
+        "id": "recarga-freefire",
+        "name": "Recarga Free Fire"
+    },
+    "offer": {
+        "id": "oferta-recarga",
+        "name": "Recarga Jogo",
+        "quantity": 1
+    },
+    "trackingParameters": {
+        "src": null,
+        "sck": "organichQwK21wXxRhQwK21wXxRhQwK21wXxRhQwK21wXxR",
+        "utm_source": "FBjLj68979c10440be0555c4f456e",
+        "utm_campaign": "1-1-1 - CBO - TESTE 4 \u2014 [DUPLICATE3]|120234229866980170",
+        "utm_medium": "CTV1|120234229867070170",
+        "utm_content": "CTV1|120234229867030170::PAZXh0bgNhZW0BMABhZGlkAasoZSQxK0oBpyS6_n-AXfPcEm62Wm_w47hHeHZQ_IMoAPVimMDjmSpxYR-PbhPoMUbjiwKe_aem_diYIP6PiJZrJSm1NPeNASA::",
+        "utm_term": "Instagram_Reels",
+        "xcod": "organichQwK21wXxRhQwK21wXxRhQwK21wXxRhQwK21wXxR",
+        "fbclid": null,
+        "gclid": null,
+        "ttclid": null
+    }
+}
+----------------------------------------
+[2025-08-09 19:41:44] 🎯 TRACKING PARAMETERS RECEBIDOS (PAGO)
+Dados: {
+    "src": null,
+    "sck": "organichQwK21wXxRhQwK21wXxRhQwK21wXxRhQwK21wXxR",
+    "utm_source": "FBjLj68979c10440be0555c4f456e",
+    "utm_campaign": "1-1-1 - CBO - TESTE 4 \u2014 [DUPLICATE3]|120234229866980170",
+    "utm_medium": "CTV1|120234229867070170",
+    "utm_content": "CTV1|120234229867030170::PAZXh0bgNhZW0BMABhZGlkAasoZSQxK0oBpyS6_n-AXfPcEm62Wm_w47hHeHZQ_IMoAPVimMDjmSpxYR-PbhPoMUbjiwKe_aem_diYIP6PiJZrJSm1NPeNASA::",
+    "utm_term": "Instagram_Reels",
+    "xcod": "organichQwK21wXxRhQwK21wXxRhQwK21wXxRhQwK21wXxR",
+    "fbclid": null,
+    "gclid": null,
+    "ttclid": null
+}
+----------------------------------------
+[2025-08-09 19:41:44] 🔍 ANÁLISE INDIVIDUAL DOS CAMPOS UTM (PAGO)
+Dados: {
+    "utm_source": "FBjLj68979c10440be0555c4f456e",
+    "utm_campaign": "1-1-1 - CBO - TESTE 4 \u2014 [DUPLICATE3]|120234229866980170",
+    "utm_medium": "CTV1|120234229867070170",
+    "utm_content": "CTV1|120234229867030170::PAZXh0bgNhZW0BMABhZGlkAasoZSQxK0oBpyS6_n-AXfPcEm62Wm_w47hHeHZQ_IMoAPVimMDjmSpxYR-PbhPoMUbjiwKe_aem_diYIP6PiJZrJSm1NPeNASA::",
+    "utm_term": "Instagram_Reels",
+    "src": "N\u00c3O ENCONTRADO",
+    "sck": "organichQwK21wXxRhQwK21wXxRhQwK21wXxRhQwK21wXxR",
+    "xcod": "organichQwK21wXxRhQwK21wXxRhQwK21wXxRhQwK21wXxR",
+    "fbclid": "N\u00c3O ENCONTRADO",
+    "gclid": "N\u00c3O ENCONTRADO",
+    "ttclid": "N\u00c3O ENCONTRADO"
+}
+----------------------------------------
+[2025-08-09 19:41:44] 📤 PAYLOAD FINAL PARA UTMIFY (PAGO)
+Dados: {
+    "orderId": "49c4d38b-bfcf-43a9-a19a-c9db2d1da601",
+    "platform": "BuckPay",
+    "paymentMethod": "pix",
+    "status": "paid",
+    "createdAt": "2025-08-09T19:36:26.102+00:00",
+    "approvedDate": "2025-08-09 19:41:44",
+    "refundedAt": null,
+    "customer": {
+        "name": "Cliente Recarga",
+        "email": "kauansousacombr6@gmail.com",
+        "phone": "5589981047615",
+        "document": "52849382086",
+        "country": "BR",
+        "ip": "2a02:4780:13::f"
+    },
+    "products": [
+        {
+            "id": "recarga-freefire",
+            "name": "Recarga Free Fire",
+            "planId": null,
+            "planName": null,
+            "quantity": 1,
+            "priceInCents": 1997
+        }
+    ],
+    "trackingParameters": {
+        "src": null,
+        "sck": "organichQwK21wXxRhQwK21wXxRhQwK21wXxRhQwK21wXxR",
+        "utm_source": "FBjLj68979c10440be0555c4f456e",
+        "utm_campaign": "1-1-1 - CBO - TESTE 4 \u2014 [DUPLICATE3]|120234229866980170",
+        "utm_medium": "CTV1|120234229867070170",
+        "utm_content": "CTV1|120234229867030170::PAZXh0bgNhZW0BMABhZGlkAasoZSQxK0oBpyS6_n-AXfPcEm62Wm_w47hHeHZQ_IMoAPVimMDjmSpxYR-PbhPoMUbjiwKe_aem_diYIP6PiJZrJSm1NPeNASA::",
+        "utm_term": "Instagram_Reels",
+        "xcod": "organichQwK21wXxRhQwK21wXxRhQwK21wXxRhQwK21wXxR",
+        "fbclid": null,
+        "gclid": null,
+        "ttclid": null
+    },
+    "commission": {
+        "totalPriceInCents": 1997,
+        "gatewayFeeInCents": 0,
+        "userCommissionInCents": 1997
+    },
+    "isTest": false
+}
+----------------------------------------
+[2025-08-09 19:41:44] 🎯 TRACKING PARAMETERS QUE SERÃO ENVIADOS (PAGO)
+Dados: {
+    "src": null,
+    "sck": "organichQwK21wXxRhQwK21wXxRhQwK21wXxRhQwK21wXxR",
+    "utm_source": "FBjLj68979c10440be0555c4f456e",
+    "utm_campaign": "1-1-1 - CBO - TESTE 4 \u2014 [DUPLICATE3]|120234229866980170",
+    "utm_medium": "CTV1|120234229867070170",
+    "utm_content": "CTV1|120234229867030170::PAZXh0bgNhZW0BMABhZGlkAasoZSQxK0oBpyS6_n-AXfPcEm62Wm_w47hHeHZQ_IMoAPVimMDjmSpxYR-PbhPoMUbjiwKe_aem_diYIP6PiJZrJSm1NPeNASA::",
+    "utm_term": "Instagram_Reels",
+    "xcod": "organichQwK21wXxRhQwK21wXxRhQwK21wXxRhQwK21wXxR",
+    "fbclid": null,
+    "gclid": null,
+    "ttclid": null
+}
+----------------------------------------
+[2025-08-09 19:41:44] 📦 JSON FINAL PARA ENVIO (PAGO)
+Dados: {
+    "json_payload": "{\"orderId\":\"49c4d38b-bfcf-43a9-a19a-c9db2d1da601\",\"platform\":\"BuckPay\",\"paymentMethod\":\"pix\",\"status\":\"paid\",\"createdAt\":\"2025-08-09T19:36:26.102+00:00\",\"approvedDate\":\"2025-08-09 19:41:44\",\"refundedAt\":null,\"customer\":{\"name\":\"Cliente Recarga\",\"email\":\"kauansousacombr6@gmail.com\",\"phone\":\"5589981047615\",\"document\":\"52849382086\",\"country\":\"BR\",\"ip\":\"2a02:4780:13::f\"},\"products\":[{\"id\":\"recarga-freefire\",\"name\":\"Recarga Free Fire\",\"planId\":null,\"planName\":null,\"quantity\":1,\"priceInCents\":1997}],\"trackingParameters\":{\"src\":null,\"sck\":\"organichQwK21wXxRhQwK21wXxRhQwK21wXxRhQwK21wXxR\",\"utm_source\":\"FBjLj68979c10440be0555c4f456e\",\"utm_campaign\":\"1-1-1 - CBO - TESTE 4 \\u2014 [DUPLICATE3]|120234229866980170\",\"utm_medium\":\"CTV1|120234229867070170\",\"utm_content\":\"CTV1|120234229867030170::PAZXh0bgNhZW0BMABhZGlkAasoZSQxK0oBpyS6_n-AXfPcEm62Wm_w47hHeHZQ_IMoAPVimMDjmSpxYR-PbhPoMUbjiwKe_aem_diYIP6PiJZrJSm1NPeNASA::\",\"utm_term\":\"Instagram_Reels\",\"xcod\":\"organichQwK21wXxRhQwK21wXxRhQwK21wXxRhQwK21wXxR\",\"fbclid\":null,\"gclid\":null,\"ttclid\":null},\"commission\":{\"totalPriceInCents\":1997,\"gatewayFeeInCents\":0,\"userCommissionInCents\":1997},\"isTest\":false}"
+}
+----------------------------------------
+[2025-08-09 19:41:44] 📡 Enviando requisição para Utmify
+Dados: {
+    "url": "https:\/\/api.utmify.com.br\/api-credentials\/orders",
+    "headers": [
+        "Content-Type: application\/json",
+        "x-api-token: [REDACTED]"
+    ]
+}
+----------------------------------------
+[2025-08-09 19:41:44] ✅ Resposta da API Utmify
+Dados: {
+    "http_code": 200,
+    "response": {
+        "OK": true,
+        "data": [],
+        "result": "SUCCESS"
+    }
+}
+----------------------------------------
+[2025-08-09 20:01:28] 📥 PAYLOAD RAW RECEBIDO (PAGO)
+Dados: {
+    "raw_data": "{\"external_id\":\"5d8df0a0-a28e-4fe4-902e-60fb017c2b0d\",\"amount\":1997,\"createdAt\":\"2025-08-09T20:00:38.554+00:00\",\"buyer\":{\"name\":\"Cliente Recarga\",\"email\":\"comprador@frifas.com\",\"document\":\"52849382086\",\"phone\":\"5566999409062\"},\"product\":{\"id\":\"recarga-freefire\",\"name\":\"Recarga Free Fire\"},\"offer\":{\"id\":\"oferta-recarga\",\"name\":\"Recarga Jogo\",\"quantity\":1},\"trackingParameters\":{\"src\":null,\"sck\":\"organichQwK21wXxRhQwK21wXxRhQwK21wXxRhQwK21wXxR\",\"utm_source\":\"FBjLj6897a7704cf7385debd0de6a\",\"utm_campaign\":\"1-1-1 - CBO 18 [5] - 9 V \\u2014 C\\u00f3pia|120233574290800170\",\"utm_medium\":\"CTV 1|120233574291050170\",\"utm_content\":\"CTV 1|120233574291580170::PAZXh0bgNhZW0BMABhZGlkAasnzK-q1NoBp7knnjPqxWsEqb2W6fte8dCvhQX8eDYJghRukTHkdjbtMuisUtUrt-PUEboV_aem_lfy04UKfQ3pGALC4mPflRA::\",\"utm_term\":\"Instagram_Feed\",\"xcod\":\"organichQwK21wXxRhQwK21wXxRhQwK21wXxRhQwK21wXxR\",\"fbclid\":null,\"gclid\":null,\"ttclid\":null}}"
+}
+----------------------------------------
+[2025-08-09 20:01:28] 🔄 PAYLOAD DECODIFICADO (PAGO)
+Dados: {
+    "external_id": "5d8df0a0-a28e-4fe4-902e-60fb017c2b0d",
+    "amount": 1997,
+    "createdAt": "2025-08-09T20:00:38.554+00:00",
+    "buyer": {
+        "name": "Cliente Recarga",
+        "email": "comprador@frifas.com",
+        "document": "52849382086",
+        "phone": "5566999409062"
+    },
+    "product": {
+        "id": "recarga-freefire",
+        "name": "Recarga Free Fire"
+    },
+    "offer": {
+        "id": "oferta-recarga",
+        "name": "Recarga Jogo",
+        "quantity": 1
+    },
+    "trackingParameters": {
+        "src": null,
+        "sck": "organichQwK21wXxRhQwK21wXxRhQwK21wXxRhQwK21wXxR",
+        "utm_source": "FBjLj6897a7704cf7385debd0de6a",
+        "utm_campaign": "1-1-1 - CBO 18 [5] - 9 V \u2014 C\u00f3pia|120233574290800170",
+        "utm_medium": "CTV 1|120233574291050170",
+        "utm_content": "CTV 1|120233574291580170::PAZXh0bgNhZW0BMABhZGlkAasnzK-q1NoBp7knnjPqxWsEqb2W6fte8dCvhQX8eDYJghRukTHkdjbtMuisUtUrt-PUEboV_aem_lfy04UKfQ3pGALC4mPflRA::",
+        "utm_term": "Instagram_Feed",
+        "xcod": "organichQwK21wXxRhQwK21wXxRhQwK21wXxRhQwK21wXxR",
+        "fbclid": null,
+        "gclid": null,
+        "ttclid": null
+    }
+}
+----------------------------------------
+[2025-08-09 20:01:28] 🎯 TRACKING PARAMETERS RECEBIDOS (PAGO)
+Dados: {
+    "src": null,
+    "sck": "organichQwK21wXxRhQwK21wXxRhQwK21wXxRhQwK21wXxR",
+    "utm_source": "FBjLj6897a7704cf7385debd0de6a",
+    "utm_campaign": "1-1-1 - CBO 18 [5] - 9 V \u2014 C\u00f3pia|120233574290800170",
+    "utm_medium": "CTV 1|120233574291050170",
+    "utm_content": "CTV 1|120233574291580170::PAZXh0bgNhZW0BMABhZGlkAasnzK-q1NoBp7knnjPqxWsEqb2W6fte8dCvhQX8eDYJghRukTHkdjbtMuisUtUrt-PUEboV_aem_lfy04UKfQ3pGALC4mPflRA::",
+    "utm_term": "Instagram_Feed",
+    "xcod": "organichQwK21wXxRhQwK21wXxRhQwK21wXxRhQwK21wXxR",
+    "fbclid": null,
+    "gclid": null,
+    "ttclid": null
+}
+----------------------------------------
+[2025-08-09 20:01:28] 🔍 ANÁLISE INDIVIDUAL DOS CAMPOS UTM (PAGO)
+Dados: {
+    "utm_source": "FBjLj6897a7704cf7385debd0de6a",
+    "utm_campaign": "1-1-1 - CBO 18 [5] - 9 V \u2014 C\u00f3pia|120233574290800170",
+    "utm_medium": "CTV 1|120233574291050170",
+    "utm_content": "CTV 1|120233574291580170::PAZXh0bgNhZW0BMABhZGlkAasnzK-q1NoBp7knnjPqxWsEqb2W6fte8dCvhQX8eDYJghRukTHkdjbtMuisUtUrt-PUEboV_aem_lfy04UKfQ3pGALC4mPflRA::",
+    "utm_term": "Instagram_Feed",
+    "src": "N\u00c3O ENCONTRADO",
+    "sck": "organichQwK21wXxRhQwK21wXxRhQwK21wXxRhQwK21wXxR",
+    "xcod": "organichQwK21wXxRhQwK21wXxRhQwK21wXxRhQwK21wXxR",
+    "fbclid": "N\u00c3O ENCONTRADO",
+    "gclid": "N\u00c3O ENCONTRADO",
+    "ttclid": "N\u00c3O ENCONTRADO"
+}
+----------------------------------------
+[2025-08-09 20:01:28] 📤 PAYLOAD FINAL PARA UTMIFY (PAGO)
+Dados: {
+    "orderId": "5d8df0a0-a28e-4fe4-902e-60fb017c2b0d",
+    "platform": "BuckPay",
+    "paymentMethod": "pix",
+    "status": "paid",
+    "createdAt": "2025-08-09T20:00:38.554+00:00",
+    "approvedDate": "2025-08-09 20:01:28",
+    "refundedAt": null,
+    "customer": {
+        "name": "Cliente Recarga",
+        "email": "comprador@frifas.com",
+        "phone": "5566999409062",
+        "document": "52849382086",
+        "country": "BR",
+        "ip": "2a02:4780:13::f"
+    },
+    "products": [
+        {
+            "id": "recarga-freefire",
+            "name": "Recarga Free Fire",
+            "planId": null,
+            "planName": null,
+            "quantity": 1,
+            "priceInCents": 1997
+        }
+    ],
+    "trackingParameters": {
+        "src": null,
+        "sck": "organichQwK21wXxRhQwK21wXxRhQwK21wXxRhQwK21wXxR",
+        "utm_source": "FBjLj6897a7704cf7385debd0de6a",
+        "utm_campaign": "1-1-1 - CBO 18 [5] - 9 V \u2014 C\u00f3pia|120233574290800170",
+        "utm_medium": "CTV 1|120233574291050170",
+        "utm_content": "CTV 1|120233574291580170::PAZXh0bgNhZW0BMABhZGlkAasnzK-q1NoBp7knnjPqxWsEqb2W6fte8dCvhQX8eDYJghRukTHkdjbtMuisUtUrt-PUEboV_aem_lfy04UKfQ3pGALC4mPflRA::",
+        "utm_term": "Instagram_Feed",
+        "xcod": "organichQwK21wXxRhQwK21wXxRhQwK21wXxRhQwK21wXxR",
+        "fbclid": null,
+        "gclid": null,
+        "ttclid": null
+    },
+    "commission": {
+        "totalPriceInCents": 1997,
+        "gatewayFeeInCents": 0,
+        "userCommissionInCents": 1997
+    },
+    "isTest": false
+}
+----------------------------------------
+[2025-08-09 20:01:28] 🎯 TRACKING PARAMETERS QUE SERÃO ENVIADOS (PAGO)
+Dados: {
+    "src": null,
+    "sck": "organichQwK21wXxRhQwK21wXxRhQwK21wXxRhQwK21wXxR",
+    "utm_source": "FBjLj6897a7704cf7385debd0de6a",
+    "utm_campaign": "1-1-1 - CBO 18 [5] - 9 V \u2014 C\u00f3pia|120233574290800170",
+    "utm_medium": "CTV 1|120233574291050170",
+    "utm_content": "CTV 1|120233574291580170::PAZXh0bgNhZW0BMABhZGlkAasnzK-q1NoBp7knnjPqxWsEqb2W6fte8dCvhQX8eDYJghRukTHkdjbtMuisUtUrt-PUEboV_aem_lfy04UKfQ3pGALC4mPflRA::",
+    "utm_term": "Instagram_Feed",
+    "xcod": "organichQwK21wXxRhQwK21wXxRhQwK21wXxRhQwK21wXxR",
+    "fbclid": null,
+    "gclid": null,
+    "ttclid": null
+}
+----------------------------------------
+[2025-08-09 20:01:28] 📦 JSON FINAL PARA ENVIO (PAGO)
+Dados: {
+    "json_payload": "{\"orderId\":\"5d8df0a0-a28e-4fe4-902e-60fb017c2b0d\",\"platform\":\"BuckPay\",\"paymentMethod\":\"pix\",\"status\":\"paid\",\"createdAt\":\"2025-08-09T20:00:38.554+00:00\",\"approvedDate\":\"2025-08-09 20:01:28\",\"refundedAt\":null,\"customer\":{\"name\":\"Cliente Recarga\",\"email\":\"comprador@frifas.com\",\"phone\":\"5566999409062\",\"document\":\"52849382086\",\"country\":\"BR\",\"ip\":\"2a02:4780:13::f\"},\"products\":[{\"id\":\"recarga-freefire\",\"name\":\"Recarga Free Fire\",\"planId\":null,\"planName\":null,\"quantity\":1,\"priceInCents\":1997}],\"trackingParameters\":{\"src\":null,\"sck\":\"organichQwK21wXxRhQwK21wXxRhQwK21wXxRhQwK21wXxR\",\"utm_source\":\"FBjLj6897a7704cf7385debd0de6a\",\"utm_campaign\":\"1-1-1 - CBO 18 [5] - 9 V \\u2014 C\\u00f3pia|120233574290800170\",\"utm_medium\":\"CTV 1|120233574291050170\",\"utm_content\":\"CTV 1|120233574291580170::PAZXh0bgNhZW0BMABhZGlkAasnzK-q1NoBp7knnjPqxWsEqb2W6fte8dCvhQX8eDYJghRukTHkdjbtMuisUtUrt-PUEboV_aem_lfy04UKfQ3pGALC4mPflRA::\",\"utm_term\":\"Instagram_Feed\",\"xcod\":\"organichQwK21wXxRhQwK21wXxRhQwK21wXxRhQwK21wXxR\",\"fbclid\":null,\"gclid\":null,\"ttclid\":null},\"commission\":{\"totalPriceInCents\":1997,\"gatewayFeeInCents\":0,\"userCommissionInCents\":1997},\"isTest\":false}"
+}
+----------------------------------------
+[2025-08-09 20:01:28] 📡 Enviando requisição para Utmify
+Dados: {
+    "url": "https:\/\/api.utmify.com.br\/api-credentials\/orders",
+    "headers": [
+        "Content-Type: application\/json",
+        "x-api-token: [REDACTED]"
+    ]
+}
+----------------------------------------
+[2025-08-09 20:01:28] ✅ Resposta da API Utmify
+Dados: {
+    "http_code": 200,
+    "response": {
+        "OK": true,
+        "data": [],
+        "result": "SUCCESS"
+    }
+}
+----------------------------------------
+[2025-08-09 20:09:58] 📥 PAYLOAD RAW RECEBIDO (PAGO)
+Dados: {
+    "raw_data": "{\"external_id\":\"5b94f810-11f3-4b6f-89c1-23c0955f3ee3\",\"amount\":1997,\"createdAt\":\"2025-08-09T20:06:37.965+00:00\",\"buyer\":{\"name\":\"Cliente Recarga\",\"email\":\"teixeiraiago801@gmail.com\",\"document\":\"52849382086\",\"phone\":\"553183495003\"},\"product\":{\"id\":\"recarga-freefire\",\"name\":\"Recarga Free Fire\"},\"offer\":{\"id\":\"oferta-recarga\",\"name\":\"Recarga Jogo\",\"quantity\":1},\"trackingParameters\":{\"src\":null,\"sck\":\"\",\"utm_source\":\"FBjLj6897a526876a60e2bd9b4fc3\",\"utm_campaign\":\"1-1-1 - CBO 22 [3] - [DUPLICATE1]- 5V ATIVAR|120234189858490170\",\"utm_medium\":\"CTV 1|120234189858530170\",\"utm_content\":\"CTV 1|120234189858470170::PAZXh0bgNhZW0BMABhZGlkAasoW9smhmoBp2ViI3FMe3M3zXsoPAfLz5qjpfPT_8KVCqvef-ECKo-cxcbFQK3izGBlVCNJ_aem_S5oOW2Dkrl-eqfVOhH9HZg::\",\"utm_term\":\"Instagram_Reels\",\"xcod\":\"\",\"fbclid\":null,\"gclid\":null,\"ttclid\":null}}"
+}
+----------------------------------------
+[2025-08-09 20:09:58] 🔄 PAYLOAD DECODIFICADO (PAGO)
+Dados: {
+    "external_id": "5b94f810-11f3-4b6f-89c1-23c0955f3ee3",
+    "amount": 1997,
+    "createdAt": "2025-08-09T20:06:37.965+00:00",
+    "buyer": {
+        "name": "Cliente Recarga",
+        "email": "teixeiraiago801@gmail.com",
+        "document": "52849382086",
+        "phone": "553183495003"
+    },
+    "product": {
+        "id": "recarga-freefire",
+        "name": "Recarga Free Fire"
+    },
+    "offer": {
+        "id": "oferta-recarga",
+        "name": "Recarga Jogo",
+        "quantity": 1
+    },
+    "trackingParameters": {
+        "src": null,
+        "sck": "",
+        "utm_source": "FBjLj6897a526876a60e2bd9b4fc3",
+        "utm_campaign": "1-1-1 - CBO 22 [3] - [DUPLICATE1]- 5V ATIVAR|120234189858490170",
+        "utm_medium": "CTV 1|120234189858530170",
+        "utm_content": "CTV 1|120234189858470170::PAZXh0bgNhZW0BMABhZGlkAasoW9smhmoBp2ViI3FMe3M3zXsoPAfLz5qjpfPT_8KVCqvef-ECKo-cxcbFQK3izGBlVCNJ_aem_S5oOW2Dkrl-eqfVOhH9HZg::",
+        "utm_term": "Instagram_Reels",
+        "xcod": "",
+        "fbclid": null,
+        "gclid": null,
+        "ttclid": null
+    }
+}
+----------------------------------------
+[2025-08-09 20:09:58] 🎯 TRACKING PARAMETERS RECEBIDOS (PAGO)
+Dados: {
+    "src": null,
+    "sck": "",
+    "utm_source": "FBjLj6897a526876a60e2bd9b4fc3",
+    "utm_campaign": "1-1-1 - CBO 22 [3] - [DUPLICATE1]- 5V ATIVAR|120234189858490170",
+    "utm_medium": "CTV 1|120234189858530170",
+    "utm_content": "CTV 1|120234189858470170::PAZXh0bgNhZW0BMABhZGlkAasoW9smhmoBp2ViI3FMe3M3zXsoPAfLz5qjpfPT_8KVCqvef-ECKo-cxcbFQK3izGBlVCNJ_aem_S5oOW2Dkrl-eqfVOhH9HZg::",
+    "utm_term": "Instagram_Reels",
+    "xcod": "",
+    "fbclid": null,
+    "gclid": null,
+    "ttclid": null
+}
+----------------------------------------
+[2025-08-09 20:09:58] 🔍 ANÁLISE INDIVIDUAL DOS CAMPOS UTM (PAGO)
+Dados: {
+    "utm_source": "FBjLj6897a526876a60e2bd9b4fc3",
+    "utm_campaign": "1-1-1 - CBO 22 [3] - [DUPLICATE1]- 5V ATIVAR|120234189858490170",
+    "utm_medium": "CTV 1|120234189858530170",
+    "utm_content": "CTV 1|120234189858470170::PAZXh0bgNhZW0BMABhZGlkAasoW9smhmoBp2ViI3FMe3M3zXsoPAfLz5qjpfPT_8KVCqvef-ECKo-cxcbFQK3izGBlVCNJ_aem_S5oOW2Dkrl-eqfVOhH9HZg::",
+    "utm_term": "Instagram_Reels",
+    "src": "N\u00c3O ENCONTRADO",
+    "sck": "",
+    "xcod": "",
+    "fbclid": "N\u00c3O ENCONTRADO",
+    "gclid": "N\u00c3O ENCONTRADO",
+    "ttclid": "N\u00c3O ENCONTRADO"
+}
+----------------------------------------
+[2025-08-09 20:09:58] 📤 PAYLOAD FINAL PARA UTMIFY (PAGO)
+Dados: {
+    "orderId": "5b94f810-11f3-4b6f-89c1-23c0955f3ee3",
+    "platform": "BuckPay",
+    "paymentMethod": "pix",
+    "status": "paid",
+    "createdAt": "2025-08-09T20:06:37.965+00:00",
+    "approvedDate": "2025-08-09 20:09:58",
+    "refundedAt": null,
+    "customer": {
+        "name": "Cliente Recarga",
+        "email": "teixeiraiago801@gmail.com",
+        "phone": "553183495003",
+        "document": "52849382086",
+        "country": "BR",
+        "ip": "2a02:4780:13::f"
+    },
+    "products": [
+        {
+            "id": "recarga-freefire",
+            "name": "Recarga Free Fire",
+            "planId": null,
+            "planName": null,
+            "quantity": 1,
+            "priceInCents": 1997
+        }
+    ],
+    "trackingParameters": {
+        "src": null,
+        "sck": "",
+        "utm_source": "FBjLj6897a526876a60e2bd9b4fc3",
+        "utm_campaign": "1-1-1 - CBO 22 [3] - [DUPLICATE1]- 5V ATIVAR|120234189858490170",
+        "utm_medium": "CTV 1|120234189858530170",
+        "utm_content": "CTV 1|120234189858470170::PAZXh0bgNhZW0BMABhZGlkAasoW9smhmoBp2ViI3FMe3M3zXsoPAfLz5qjpfPT_8KVCqvef-ECKo-cxcbFQK3izGBlVCNJ_aem_S5oOW2Dkrl-eqfVOhH9HZg::",
+        "utm_term": "Instagram_Reels",
+        "xcod": "",
+        "fbclid": null,
+        "gclid": null,
+        "ttclid": null
+    },
+    "commission": {
+        "totalPriceInCents": 1997,
+        "gatewayFeeInCents": 0,
+        "userCommissionInCents": 1997
+    },
+    "isTest": false
+}
+----------------------------------------
+[2025-08-09 20:09:58] 🎯 TRACKING PARAMETERS QUE SERÃO ENVIADOS (PAGO)
+Dados: {
+    "src": null,
+    "sck": "",
+    "utm_source": "FBjLj6897a526876a60e2bd9b4fc3",
+    "utm_campaign": "1-1-1 - CBO 22 [3] - [DUPLICATE1]- 5V ATIVAR|120234189858490170",
+    "utm_medium": "CTV 1|120234189858530170",
+    "utm_content": "CTV 1|120234189858470170::PAZXh0bgNhZW0BMABhZGlkAasoW9smhmoBp2ViI3FMe3M3zXsoPAfLz5qjpfPT_8KVCqvef-ECKo-cxcbFQK3izGBlVCNJ_aem_S5oOW2Dkrl-eqfVOhH9HZg::",
+    "utm_term": "Instagram_Reels",
+    "xcod": "",
+    "fbclid": null,
+    "gclid": null,
+    "ttclid": null
+}
+----------------------------------------
+[2025-08-09 20:09:58] 📦 JSON FINAL PARA ENVIO (PAGO)
+Dados: {
+    "json_payload": "{\"orderId\":\"5b94f810-11f3-4b6f-89c1-23c0955f3ee3\",\"platform\":\"BuckPay\",\"paymentMethod\":\"pix\",\"status\":\"paid\",\"createdAt\":\"2025-08-09T20:06:37.965+00:00\",\"approvedDate\":\"2025-08-09 20:09:58\",\"refundedAt\":null,\"customer\":{\"name\":\"Cliente Recarga\",\"email\":\"teixeiraiago801@gmail.com\",\"phone\":\"553183495003\",\"document\":\"52849382086\",\"country\":\"BR\",\"ip\":\"2a02:4780:13::f\"},\"products\":[{\"id\":\"recarga-freefire\",\"name\":\"Recarga Free Fire\",\"planId\":null,\"planName\":null,\"quantity\":1,\"priceInCents\":1997}],\"trackingParameters\":{\"src\":null,\"sck\":\"\",\"utm_source\":\"FBjLj6897a526876a60e2bd9b4fc3\",\"utm_campaign\":\"1-1-1 - CBO 22 [3] - [DUPLICATE1]- 5V ATIVAR|120234189858490170\",\"utm_medium\":\"CTV 1|120234189858530170\",\"utm_content\":\"CTV 1|120234189858470170::PAZXh0bgNhZW0BMABhZGlkAasoW9smhmoBp2ViI3FMe3M3zXsoPAfLz5qjpfPT_8KVCqvef-ECKo-cxcbFQK3izGBlVCNJ_aem_S5oOW2Dkrl-eqfVOhH9HZg::\",\"utm_term\":\"Instagram_Reels\",\"xcod\":\"\",\"fbclid\":null,\"gclid\":null,\"ttclid\":null},\"commission\":{\"totalPriceInCents\":1997,\"gatewayFeeInCents\":0,\"userCommissionInCents\":1997},\"isTest\":false}"
+}
+----------------------------------------
+[2025-08-09 20:09:58] 📡 Enviando requisição para Utmify
+Dados: {
+    "url": "https:\/\/api.utmify.com.br\/api-credentials\/orders",
+    "headers": [
+        "Content-Type: application\/json",
+        "x-api-token: [REDACTED]"
+    ]
+}
+----------------------------------------
+[2025-08-09 20:09:58] ✅ Resposta da API Utmify
+Dados: {
+    "http_code": 200,
+    "response": {
+        "OK": true,
+        "data": [],
+        "result": "SUCCESS"
+    }
+}
+----------------------------------------
+[2025-08-09 20:40:54] 📥 PAYLOAD RAW RECEBIDO (PAGO)
+Dados: {
+    "raw_data": "{\"external_id\":\"39b95b06-31a5-4c92-9e21-b0a932aca0ed\",\"amount\":1997,\"createdAt\":\"2025-08-09T20:39:42.77+00:00\",\"buyer\":{\"name\":\"Cliente Recarga\",\"email\":\"comprador@frifas.com\",\"document\":\"52849382086\",\"phone\":\"5579998496111\"},\"product\":{\"id\":\"recarga-freefire\",\"name\":\"Recarga Free Fire\"},\"offer\":{\"id\":\"oferta-recarga\",\"name\":\"Recarga Jogo\",\"quantity\":1},\"trackingParameters\":{\"src\":null,\"sck\":\"\",\"utm_source\":\"FBjLj6897b08a0d1ed22bc9769b55\",\"utm_campaign\":\"1-1-1 - CBO - TESTE 3 \\u2014 [DUPLICATE2]|120234229863630170\",\"utm_medium\":\"CTV1|120234229863720170\",\"utm_content\":\"CTV1|120234229863660170::PAZXh0bgNhZW0BMABhZGlkAasoZSPta4oBp7aXj9TXUTiWa8qjxHviPwWV4ztW7uRruGBwETFVq5upj3_z4evkHLwX4_Go_aem_PsX552YO4YaFdTW7LQXM-w::\",\"utm_term\":\"Instagram_Stories\",\"xcod\":\"\",\"fbclid\":null,\"gclid\":null,\"ttclid\":null}}"
+}
+----------------------------------------
+[2025-08-09 20:40:54] 🔄 PAYLOAD DECODIFICADO (PAGO)
+Dados: {
+    "external_id": "39b95b06-31a5-4c92-9e21-b0a932aca0ed",
+    "amount": 1997,
+    "createdAt": "2025-08-09T20:39:42.77+00:00",
+    "buyer": {
+        "name": "Cliente Recarga",
+        "email": "comprador@frifas.com",
+        "document": "52849382086",
+        "phone": "5579998496111"
+    },
+    "product": {
+        "id": "recarga-freefire",
+        "name": "Recarga Free Fire"
+    },
+    "offer": {
+        "id": "oferta-recarga",
+        "name": "Recarga Jogo",
+        "quantity": 1
+    },
+    "trackingParameters": {
+        "src": null,
+        "sck": "",
+        "utm_source": "FBjLj6897b08a0d1ed22bc9769b55",
+        "utm_campaign": "1-1-1 - CBO - TESTE 3 \u2014 [DUPLICATE2]|120234229863630170",
+        "utm_medium": "CTV1|120234229863720170",
+        "utm_content": "CTV1|120234229863660170::PAZXh0bgNhZW0BMABhZGlkAasoZSPta4oBp7aXj9TXUTiWa8qjxHviPwWV4ztW7uRruGBwETFVq5upj3_z4evkHLwX4_Go_aem_PsX552YO4YaFdTW7LQXM-w::",
+        "utm_term": "Instagram_Stories",
+        "xcod": "",
+        "fbclid": null,
+        "gclid": null,
+        "ttclid": null
+    }
+}
+----------------------------------------
+[2025-08-09 20:40:54] 🎯 TRACKING PARAMETERS RECEBIDOS (PAGO)
+Dados: {
+    "src": null,
+    "sck": "",
+    "utm_source": "FBjLj6897b08a0d1ed22bc9769b55",
+    "utm_campaign": "1-1-1 - CBO - TESTE 3 \u2014 [DUPLICATE2]|120234229863630170",
+    "utm_medium": "CTV1|120234229863720170",
+    "utm_content": "CTV1|120234229863660170::PAZXh0bgNhZW0BMABhZGlkAasoZSPta4oBp7aXj9TXUTiWa8qjxHviPwWV4ztW7uRruGBwETFVq5upj3_z4evkHLwX4_Go_aem_PsX552YO4YaFdTW7LQXM-w::",
+    "utm_term": "Instagram_Stories",
+    "xcod": "",
+    "fbclid": null,
+    "gclid": null,
+    "ttclid": null
+}
+----------------------------------------
+[2025-08-09 20:40:54] 🔍 ANÁLISE INDIVIDUAL DOS CAMPOS UTM (PAGO)
+Dados: {
+    "utm_source": "FBjLj6897b08a0d1ed22bc9769b55",
+    "utm_campaign": "1-1-1 - CBO - TESTE 3 \u2014 [DUPLICATE2]|120234229863630170",
+    "utm_medium": "CTV1|120234229863720170",
+    "utm_content": "CTV1|120234229863660170::PAZXh0bgNhZW0BMABhZGlkAasoZSPta4oBp7aXj9TXUTiWa8qjxHviPwWV4ztW7uRruGBwETFVq5upj3_z4evkHLwX4_Go_aem_PsX552YO4YaFdTW7LQXM-w::",
+    "utm_term": "Instagram_Stories",
+    "src": "N\u00c3O ENCONTRADO",
+    "sck": "",
+    "xcod": "",
+    "fbclid": "N\u00c3O ENCONTRADO",
+    "gclid": "N\u00c3O ENCONTRADO",
+    "ttclid": "N\u00c3O ENCONTRADO"
+}
+----------------------------------------
+[2025-08-09 20:40:54] 📤 PAYLOAD FINAL PARA UTMIFY (PAGO)
+Dados: {
+    "orderId": "39b95b06-31a5-4c92-9e21-b0a932aca0ed",
+    "platform": "BuckPay",
+    "paymentMethod": "pix",
+    "status": "paid",
+    "createdAt": "2025-08-09T20:39:42.77+00:00",
+    "approvedDate": "2025-08-09 20:40:54",
+    "refundedAt": null,
+    "customer": {
+        "name": "Cliente Recarga",
+        "email": "comprador@frifas.com",
+        "phone": "5579998496111",
+        "document": "52849382086",
+        "country": "BR",
+        "ip": "2a02:4780:13::f"
+    },
+    "products": [
+        {
+            "id": "recarga-freefire",
+            "name": "Recarga Free Fire",
+            "planId": null,
+            "planName": null,
+            "quantity": 1,
+            "priceInCents": 1997
+        }
+    ],
+    "trackingParameters": {
+        "src": null,
+        "sck": "",
+        "utm_source": "FBjLj6897b08a0d1ed22bc9769b55",
+        "utm_campaign": "1-1-1 - CBO - TESTE 3 \u2014 [DUPLICATE2]|120234229863630170",
+        "utm_medium": "CTV1|120234229863720170",
+        "utm_content": "CTV1|120234229863660170::PAZXh0bgNhZW0BMABhZGlkAasoZSPta4oBp7aXj9TXUTiWa8qjxHviPwWV4ztW7uRruGBwETFVq5upj3_z4evkHLwX4_Go_aem_PsX552YO4YaFdTW7LQXM-w::",
+        "utm_term": "Instagram_Stories",
+        "xcod": "",
+        "fbclid": null,
+        "gclid": null,
+        "ttclid": null
+    },
+    "commission": {
+        "totalPriceInCents": 1997,
+        "gatewayFeeInCents": 0,
+        "userCommissionInCents": 1997
+    },
+    "isTest": false
+}
+----------------------------------------
+[2025-08-09 20:40:54] 🎯 TRACKING PARAMETERS QUE SERÃO ENVIADOS (PAGO)
+Dados: {
+    "src": null,
+    "sck": "",
+    "utm_source": "FBjLj6897b08a0d1ed22bc9769b55",
+    "utm_campaign": "1-1-1 - CBO - TESTE 3 \u2014 [DUPLICATE2]|120234229863630170",
+    "utm_medium": "CTV1|120234229863720170",
+    "utm_content": "CTV1|120234229863660170::PAZXh0bgNhZW0BMABhZGlkAasoZSPta4oBp7aXj9TXUTiWa8qjxHviPwWV4ztW7uRruGBwETFVq5upj3_z4evkHLwX4_Go_aem_PsX552YO4YaFdTW7LQXM-w::",
+    "utm_term": "Instagram_Stories",
+    "xcod": "",
+    "fbclid": null,
+    "gclid": null,
+    "ttclid": null
+}
+----------------------------------------
+[2025-08-09 20:40:54] 📦 JSON FINAL PARA ENVIO (PAGO)
+Dados: {
+    "json_payload": "{\"orderId\":\"39b95b06-31a5-4c92-9e21-b0a932aca0ed\",\"platform\":\"BuckPay\",\"paymentMethod\":\"pix\",\"status\":\"paid\",\"createdAt\":\"2025-08-09T20:39:42.77+00:00\",\"approvedDate\":\"2025-08-09 20:40:54\",\"refundedAt\":null,\"customer\":{\"name\":\"Cliente Recarga\",\"email\":\"comprador@frifas.com\",\"phone\":\"5579998496111\",\"document\":\"52849382086\",\"country\":\"BR\",\"ip\":\"2a02:4780:13::f\"},\"products\":[{\"id\":\"recarga-freefire\",\"name\":\"Recarga Free Fire\",\"planId\":null,\"planName\":null,\"quantity\":1,\"priceInCents\":1997}],\"trackingParameters\":{\"src\":null,\"sck\":\"\",\"utm_source\":\"FBjLj6897b08a0d1ed22bc9769b55\",\"utm_campaign\":\"1-1-1 - CBO - TESTE 3 \\u2014 [DUPLICATE2]|120234229863630170\",\"utm_medium\":\"CTV1|120234229863720170\",\"utm_content\":\"CTV1|120234229863660170::PAZXh0bgNhZW0BMABhZGlkAasoZSPta4oBp7aXj9TXUTiWa8qjxHviPwWV4ztW7uRruGBwETFVq5upj3_z4evkHLwX4_Go_aem_PsX552YO4YaFdTW7LQXM-w::\",\"utm_term\":\"Instagram_Stories\",\"xcod\":\"\",\"fbclid\":null,\"gclid\":null,\"ttclid\":null},\"commission\":{\"totalPriceInCents\":1997,\"gatewayFeeInCents\":0,\"userCommissionInCents\":1997},\"isTest\":false}"
+}
+----------------------------------------
+[2025-08-09 20:40:54] 📡 Enviando requisição para Utmify
+Dados: {
+    "url": "https:\/\/api.utmify.com.br\/api-credentials\/orders",
+    "headers": [
+        "Content-Type: application\/json",
+        "x-api-token: [REDACTED]"
+    ]
+}
+----------------------------------------
+[2025-08-09 20:40:54] ✅ Resposta da API Utmify
+Dados: {
+    "http_code": 200,
+    "response": {
+        "OK": true,
+        "data": [],
+        "result": "SUCCESS"
+    }
+}
+----------------------------------------
+[2025-08-09 21:06:48] 📥 PAYLOAD RAW RECEBIDO (PAGO)
+Dados: {
+    "raw_data": "{\"external_id\":\"64163518-e557-4b72-8a7c-5ceff4525131\",\"amount\":1997,\"createdAt\":\"2025-08-09T21:06:03.876+00:00\",\"buyer\":{\"name\":\"Cliente Recarga\",\"email\":\"helio2heitor@gmail.com\",\"document\":\"52849382086\",\"phone\":\"5563981159576\"},\"product\":{\"id\":\"recarga-freefire\",\"name\":\"Recarga Free Fire\"},\"offer\":{\"id\":\"oferta-recarga\",\"name\":\"Recarga Jogo\",\"quantity\":1},\"trackingParameters\":{\"src\":null,\"sck\":\"\",\"utm_source\":\"organicjLj6897b5da440be0555c5ab687\",\"utm_campaign\":\"\",\"utm_medium\":\"\",\"utm_content\":\"::IwY2xjawLS8XFleHRuA2FlbQIxMABicmlkETE2WlBTTERzMnNRWXNKVFFtAR5YpBdNecOAeBfm0zHzUUKgTk0jNG6_Pgt6h5ygUogmmxevu1_nyTsqEWdX0w_aem_nyY1Gq_eyeFLjzxKsh1AuQ::\",\"utm_term\":\"\",\"xcod\":\"organichQwK21wXxRhQwK21wXxRhQwK21wXxRhQwK21wXxR\",\"fbclid\":null,\"gclid\":null,\"ttclid\":null}}"
+}
+----------------------------------------
+[2025-08-09 21:06:48] 🔄 PAYLOAD DECODIFICADO (PAGO)
+Dados: {
+    "external_id": "64163518-e557-4b72-8a7c-5ceff4525131",
+    "amount": 1997,
+    "createdAt": "2025-08-09T21:06:03.876+00:00",
+    "buyer": {
+        "name": "Cliente Recarga",
+        "email": "helio2heitor@gmail.com",
+        "document": "52849382086",
+        "phone": "5563981159576"
+    },
+    "product": {
+        "id": "recarga-freefire",
+        "name": "Recarga Free Fire"
+    },
+    "offer": {
+        "id": "oferta-recarga",
+        "name": "Recarga Jogo",
+        "quantity": 1
+    },
+    "trackingParameters": {
+        "src": null,
+        "sck": "",
+        "utm_source": "organicjLj6897b5da440be0555c5ab687",
+        "utm_campaign": "",
+        "utm_medium": "",
+        "utm_content": "::IwY2xjawLS8XFleHRuA2FlbQIxMABicmlkETE2WlBTTERzMnNRWXNKVFFtAR5YpBdNecOAeBfm0zHzUUKgTk0jNG6_Pgt6h5ygUogmmxevu1_nyTsqEWdX0w_aem_nyY1Gq_eyeFLjzxKsh1AuQ::",
+        "utm_term": "",
+        "xcod": "organichQwK21wXxRhQwK21wXxRhQwK21wXxRhQwK21wXxR",
+        "fbclid": null,
+        "gclid": null,
+        "ttclid": null
+    }
+}
+----------------------------------------
+[2025-08-09 21:06:48] 🎯 TRACKING PARAMETERS RECEBIDOS (PAGO)
+Dados: {
+    "src": null,
+    "sck": "",
+    "utm_source": "organicjLj6897b5da440be0555c5ab687",
+    "utm_campaign": "",
+    "utm_medium": "",
+    "utm_content": "::IwY2xjawLS8XFleHRuA2FlbQIxMABicmlkETE2WlBTTERzMnNRWXNKVFFtAR5YpBdNecOAeBfm0zHzUUKgTk0jNG6_Pgt6h5ygUogmmxevu1_nyTsqEWdX0w_aem_nyY1Gq_eyeFLjzxKsh1AuQ::",
+    "utm_term": "",
+    "xcod": "organichQwK21wXxRhQwK21wXxRhQwK21wXxRhQwK21wXxR",
+    "fbclid": null,
+    "gclid": null,
+    "ttclid": null
+}
+----------------------------------------
+[2025-08-09 21:06:48] 🔍 ANÁLISE INDIVIDUAL DOS CAMPOS UTM (PAGO)
+Dados: {
+    "utm_source": "organicjLj6897b5da440be0555c5ab687",
+    "utm_campaign": "",
+    "utm_medium": "",
+    "utm_content": "::IwY2xjawLS8XFleHRuA2FlbQIxMABicmlkETE2WlBTTERzMnNRWXNKVFFtAR5YpBdNecOAeBfm0zHzUUKgTk0jNG6_Pgt6h5ygUogmmxevu1_nyTsqEWdX0w_aem_nyY1Gq_eyeFLjzxKsh1AuQ::",
+    "utm_term": "",
+    "src": "N\u00c3O ENCONTRADO",
+    "sck": "",
+    "xcod": "organichQwK21wXxRhQwK21wXxRhQwK21wXxRhQwK21wXxR",
+    "fbclid": "N\u00c3O ENCONTRADO",
+    "gclid": "N\u00c3O ENCONTRADO",
+    "ttclid": "N\u00c3O ENCONTRADO"
+}
+----------------------------------------
+[2025-08-09 21:06:48] 📤 PAYLOAD FINAL PARA UTMIFY (PAGO)
+Dados: {
+    "orderId": "64163518-e557-4b72-8a7c-5ceff4525131",
+    "platform": "BuckPay",
+    "paymentMethod": "pix",
+    "status": "paid",
+    "createdAt": "2025-08-09T21:06:03.876+00:00",
+    "approvedDate": "2025-08-09 21:06:48",
+    "refundedAt": null,
+    "customer": {
+        "name": "Cliente Recarga",
+        "email": "helio2heitor@gmail.com",
+        "phone": "5563981159576",
+        "document": "52849382086",
+        "country": "BR",
+        "ip": "2a02:4780:13::f"
+    },
+    "products": [
+        {
+            "id": "recarga-freefire",
+            "name": "Recarga Free Fire",
+            "planId": null,
+            "planName": null,
+            "quantity": 1,
+            "priceInCents": 1997
+        }
+    ],
+    "trackingParameters": {
+        "src": null,
+        "sck": "",
+        "utm_source": "organicjLj6897b5da440be0555c5ab687",
+        "utm_campaign": "",
+        "utm_medium": "",
+        "utm_content": "::IwY2xjawLS8XFleHRuA2FlbQIxMABicmlkETE2WlBTTERzMnNRWXNKVFFtAR5YpBdNecOAeBfm0zHzUUKgTk0jNG6_Pgt6h5ygUogmmxevu1_nyTsqEWdX0w_aem_nyY1Gq_eyeFLjzxKsh1AuQ::",
+        "utm_term": "",
+        "xcod": "organichQwK21wXxRhQwK21wXxRhQwK21wXxRhQwK21wXxR",
+        "fbclid": null,
+        "gclid": null,
+        "ttclid": null
+    },
+    "commission": {
+        "totalPriceInCents": 1997,
+        "gatewayFeeInCents": 0,
+        "userCommissionInCents": 1997
+    },
+    "isTest": false
+}
+----------------------------------------
+[2025-08-09 21:06:48] 🎯 TRACKING PARAMETERS QUE SERÃO ENVIADOS (PAGO)
+Dados: {
+    "src": null,
+    "sck": "",
+    "utm_source": "organicjLj6897b5da440be0555c5ab687",
+    "utm_campaign": "",
+    "utm_medium": "",
+    "utm_content": "::IwY2xjawLS8XFleHRuA2FlbQIxMABicmlkETE2WlBTTERzMnNRWXNKVFFtAR5YpBdNecOAeBfm0zHzUUKgTk0jNG6_Pgt6h5ygUogmmxevu1_nyTsqEWdX0w_aem_nyY1Gq_eyeFLjzxKsh1AuQ::",
+    "utm_term": "",
+    "xcod": "organichQwK21wXxRhQwK21wXxRhQwK21wXxRhQwK21wXxR",
+    "fbclid": null,
+    "gclid": null,
+    "ttclid": null
+}
+----------------------------------------
+[2025-08-09 21:06:48] 📦 JSON FINAL PARA ENVIO (PAGO)
+Dados: {
+    "json_payload": "{\"orderId\":\"64163518-e557-4b72-8a7c-5ceff4525131\",\"platform\":\"BuckPay\",\"paymentMethod\":\"pix\",\"status\":\"paid\",\"createdAt\":\"2025-08-09T21:06:03.876+00:00\",\"approvedDate\":\"2025-08-09 21:06:48\",\"refundedAt\":null,\"customer\":{\"name\":\"Cliente Recarga\",\"email\":\"helio2heitor@gmail.com\",\"phone\":\"5563981159576\",\"document\":\"52849382086\",\"country\":\"BR\",\"ip\":\"2a02:4780:13::f\"},\"products\":[{\"id\":\"recarga-freefire\",\"name\":\"Recarga Free Fire\",\"planId\":null,\"planName\":null,\"quantity\":1,\"priceInCents\":1997}],\"trackingParameters\":{\"src\":null,\"sck\":\"\",\"utm_source\":\"organicjLj6897b5da440be0555c5ab687\",\"utm_campaign\":\"\",\"utm_medium\":\"\",\"utm_content\":\"::IwY2xjawLS8XFleHRuA2FlbQIxMABicmlkETE2WlBTTERzMnNRWXNKVFFtAR5YpBdNecOAeBfm0zHzUUKgTk0jNG6_Pgt6h5ygUogmmxevu1_nyTsqEWdX0w_aem_nyY1Gq_eyeFLjzxKsh1AuQ::\",\"utm_term\":\"\",\"xcod\":\"organichQwK21wXxRhQwK21wXxRhQwK21wXxRhQwK21wXxR\",\"fbclid\":null,\"gclid\":null,\"ttclid\":null},\"commission\":{\"totalPriceInCents\":1997,\"gatewayFeeInCents\":0,\"userCommissionInCents\":1997},\"isTest\":false}"
+}
+----------------------------------------
+[2025-08-09 21:06:48] 📡 Enviando requisição para Utmify
+Dados: {
+    "url": "https:\/\/api.utmify.com.br\/api-credentials\/orders",
+    "headers": [
+        "Content-Type: application\/json",
+        "x-api-token: [REDACTED]"
+    ]
+}
+----------------------------------------
+[2025-08-09 21:06:48] ✅ Resposta da API Utmify
+Dados: {
+    "http_code": 200,
+    "response": {
+        "OK": true,
+        "data": [],
+        "result": "SUCCESS"
+    }
+}
+----------------------------------------
+[2025-08-09 21:48:55] 📥 PAYLOAD RAW RECEBIDO (PAGO)
+Dados: {
+    "raw_data": "{\"external_id\":\"4078a108-027d-410e-84d2-4f731d785dab\",\"amount\":1997,\"createdAt\":\"2025-08-09T21:47:26.334+00:00\",\"buyer\":{\"name\":\"Cliente Recarga\",\"email\":\"andersonwyden471@gmail.com\",\"document\":\"52849382086\",\"phone\":\"5545999726923\"},\"product\":{\"id\":\"recarga-freefire\",\"name\":\"Recarga Free Fire\"},\"offer\":{\"id\":\"oferta-recarga\",\"name\":\"Recarga Jogo\",\"quantity\":1},\"trackingParameters\":{\"src\":null,\"sck\":\"\",\"utm_source\":\"organicjLj6897c07be6f04ca1750ea5f0\",\"utm_campaign\":\"\",\"utm_medium\":\"\",\"utm_content\":\"\",\"utm_term\":\"\",\"xcod\":\"\",\"fbclid\":null,\"gclid\":null,\"ttclid\":null}}"
+}
+----------------------------------------
+[2025-08-09 21:48:55] 🔄 PAYLOAD DECODIFICADO (PAGO)
+Dados: {
+    "external_id": "4078a108-027d-410e-84d2-4f731d785dab",
+    "amount": 1997,
+    "createdAt": "2025-08-09T21:47:26.334+00:00",
+    "buyer": {
+        "name": "Cliente Recarga",
+        "email": "andersonwyden471@gmail.com",
+        "document": "52849382086",
+        "phone": "5545999726923"
+    },
+    "product": {
+        "id": "recarga-freefire",
+        "name": "Recarga Free Fire"
+    },
+    "offer": {
+        "id": "oferta-recarga",
+        "name": "Recarga Jogo",
+        "quantity": 1
+    },
+    "trackingParameters": {
+        "src": null,
+        "sck": "",
+        "utm_source": "organicjLj6897c07be6f04ca1750ea5f0",
+        "utm_campaign": "",
+        "utm_medium": "",
+        "utm_content": "",
+        "utm_term": "",
+        "xcod": "",
+        "fbclid": null,
+        "gclid": null,
+        "ttclid": null
+    }
+}
+----------------------------------------
+[2025-08-09 21:48:55] 🎯 TRACKING PARAMETERS RECEBIDOS (PAGO)
+Dados: {
+    "src": null,
+    "sck": "",
+    "utm_source": "organicjLj6897c07be6f04ca1750ea5f0",
+    "utm_campaign": "",
+    "utm_medium": "",
+    "utm_content": "",
+    "utm_term": "",
+    "xcod": "",
+    "fbclid": null,
+    "gclid": null,
+    "ttclid": null
+}
+----------------------------------------
+[2025-08-09 21:48:55] 🔍 ANÁLISE INDIVIDUAL DOS CAMPOS UTM (PAGO)
+Dados: {
+    "utm_source": "organicjLj6897c07be6f04ca1750ea5f0",
+    "utm_campaign": "",
+    "utm_medium": "",
+    "utm_content": "",
+    "utm_term": "",
+    "src": "N\u00c3O ENCONTRADO",
+    "sck": "",
+    "xcod": "",
+    "fbclid": "N\u00c3O ENCONTRADO",
+    "gclid": "N\u00c3O ENCONTRADO",
+    "ttclid": "N\u00c3O ENCONTRADO"
+}
+----------------------------------------
+[2025-08-09 21:48:55] 📤 PAYLOAD FINAL PARA UTMIFY (PAGO)
+Dados: {
+    "orderId": "4078a108-027d-410e-84d2-4f731d785dab",
+    "platform": "BuckPay",
+    "paymentMethod": "pix",
+    "status": "paid",
+    "createdAt": "2025-08-09T21:47:26.334+00:00",
+    "approvedDate": "2025-08-09 21:48:55",
+    "refundedAt": null,
+    "customer": {
+        "name": "Cliente Recarga",
+        "email": "andersonwyden471@gmail.com",
+        "phone": "5545999726923",
+        "document": "52849382086",
+        "country": "BR",
+        "ip": "2a02:4780:13::f"
+    },
+    "products": [
+        {
+            "id": "recarga-freefire",
+            "name": "Recarga Free Fire",
+            "planId": null,
+            "planName": null,
+            "quantity": 1,
+            "priceInCents": 1997
+        }
+    ],
+    "trackingParameters": {
+        "src": null,
+        "sck": "",
+        "utm_source": "organicjLj6897c07be6f04ca1750ea5f0",
+        "utm_campaign": "",
+        "utm_medium": "",
+        "utm_content": "",
+        "utm_term": "",
+        "xcod": "",
+        "fbclid": null,
+        "gclid": null,
+        "ttclid": null
+    },
+    "commission": {
+        "totalPriceInCents": 1997,
+        "gatewayFeeInCents": 0,
+        "userCommissionInCents": 1997
+    },
+    "isTest": false
+}
+----------------------------------------
+[2025-08-09 21:48:55] 🎯 TRACKING PARAMETERS QUE SERÃO ENVIADOS (PAGO)
+Dados: {
+    "src": null,
+    "sck": "",
+    "utm_source": "organicjLj6897c07be6f04ca1750ea5f0",
+    "utm_campaign": "",
+    "utm_medium": "",
+    "utm_content": "",
+    "utm_term": "",
+    "xcod": "",
+    "fbclid": null,
+    "gclid": null,
+    "ttclid": null
+}
+----------------------------------------
+[2025-08-09 21:48:55] 📦 JSON FINAL PARA ENVIO (PAGO)
+Dados: {
+    "json_payload": "{\"orderId\":\"4078a108-027d-410e-84d2-4f731d785dab\",\"platform\":\"BuckPay\",\"paymentMethod\":\"pix\",\"status\":\"paid\",\"createdAt\":\"2025-08-09T21:47:26.334+00:00\",\"approvedDate\":\"2025-08-09 21:48:55\",\"refundedAt\":null,\"customer\":{\"name\":\"Cliente Recarga\",\"email\":\"andersonwyden471@gmail.com\",\"phone\":\"5545999726923\",\"document\":\"52849382086\",\"country\":\"BR\",\"ip\":\"2a02:4780:13::f\"},\"products\":[{\"id\":\"recarga-freefire\",\"name\":\"Recarga Free Fire\",\"planId\":null,\"planName\":null,\"quantity\":1,\"priceInCents\":1997}],\"trackingParameters\":{\"src\":null,\"sck\":\"\",\"utm_source\":\"organicjLj6897c07be6f04ca1750ea5f0\",\"utm_campaign\":\"\",\"utm_medium\":\"\",\"utm_content\":\"\",\"utm_term\":\"\",\"xcod\":\"\",\"fbclid\":null,\"gclid\":null,\"ttclid\":null},\"commission\":{\"totalPriceInCents\":1997,\"gatewayFeeInCents\":0,\"userCommissionInCents\":1997},\"isTest\":false}"
+}
+----------------------------------------
+[2025-08-09 21:48:55] 📡 Enviando requisição para Utmify
+Dados: {
+    "url": "https:\/\/api.utmify.com.br\/api-credentials\/orders",
+    "headers": [
+        "Content-Type: application\/json",
+        "x-api-token: [REDACTED]"
+    ]
+}
+----------------------------------------
+[2025-08-09 21:48:55] ✅ Resposta da API Utmify
+Dados: {
+    "http_code": 200,
+    "response": {
+        "OK": true,
+        "data": [],
+        "result": "SUCCESS"
+    }
+}
+----------------------------------------
