@@ -1,7 +1,7 @@
 <?php
 header('Content-Type: application/json');
 
-$secretToken = 'sk_live_69b0ed89aaa545ef5e67bfcef2c3e0c4';
+$secretToken = 'sk_live_24f5f78fec2d518816353b2f44a5465b';
 
 $amount = isset($_POST['priceInCents']) ? intval($_POST['priceInCents']) : 1990;
 $email = isset($_POST['email']) ? $_POST['email'] : 'teste@email.com';
