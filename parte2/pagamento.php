@@ -120,6 +120,7 @@ curl_setopt_array($curl, [
     CURLOPT_HTTPHEADER => [
         "Authorization: Bearer $secretToken",
         "Content-Type: application/json",
+        "User-Agent: Buckpay API"
     ],
 ]);
 
